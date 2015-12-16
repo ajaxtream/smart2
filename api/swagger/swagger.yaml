@@ -1,0 +1,121 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: SalesMAn's Routing Tool
+# during dev, should point to your local machine
+host: localhost:10010
+# basePath prefixes all resource paths 
+basePath: /
+# 
+schemes:
+  # tip: remove http to make production-grade
+  - http
+  - https
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+  - application/x-www-form-urlencoded
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /schedule:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: smart_controller
+    post:
+      description: Returns an optimal schedule that first completes as many tasks (within their deadlines) as possible; and then, ends ASAP.
+      # used as the method name of the controller
+      operationId: postSchedule
+      parameters:
+        - name: inputArg
+          in: body
+          description: input arguments
+          required: true
+          schema: 
+            $ref: '#/definitions/InputArgument'
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/ScheduleResponse"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+  /swagger:
+    x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+  Cordinates:
+    type: object
+    properties:
+      Lat:
+        type: number
+        format: double
+        description: 'Latitude'
+      Lng:
+        type: number
+        format: double
+        description: 'Longtitude'
+  Task:
+    type: object
+    description: "TODO: add a task duration property"
+    properties:
+      tid:
+        type: string
+        format: uuid
+        description: task's unique id
+      location:
+        $ref: '#/definitions/Cordinates'
+      deadline:
+        type: number
+        format: double
+        description: deadline time (in seconds)
+      ready_time:
+        type: number
+        format: double
+        description: the time (in seconds) when the task is available
+      depend:
+        type: string
+        format: uuid
+        description:  this task only begins after the 'depend' task
+  GoogleMapOption:
+    type: object
+    properties:
+      mode:
+        type: string
+        description: "[driving | walking | bicycling] default value: driving"
+      avoid:
+        type: string
+        description: "[tolls | highways | ferries]"
+  InputArgument:
+    type: object
+    properties:
+      task_list:
+        type: array
+        items:
+          $ref: '#/definitions/Task'
+        description: at most 10 tasks
+      start_location:
+        $ref: '#/definitions/Cordinates'
+      start_time:
+        type: number
+        format: double
+        description: the start time in seconds
+      googlemap_option:
+        $ref: '#/definitions/GoogleMapOption'
+    
+  ScheduleResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string

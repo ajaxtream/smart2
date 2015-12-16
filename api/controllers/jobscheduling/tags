@@ -1,0 +1,1386 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALG	jobSchedule.h	/^class ALG{$/;"	c
+ALIGNAS	example_code/jsoncpp.cpp	2408;"	d	file:
+ALIGNAS	jsoncpp.cpp	2408;"	d	file:
+AR.host	example_code/build/Makefile	/^AR.host ?= ar$/;"	m
+AR.target	example_code/build/Makefile	/^AR.target ?= $(AR)$/;"	m
+All	example_code/jsoncpp.cpp	/^    All  \/\/\/< Keep all comments.$/;"	e	enum:Json::CommentStyle::Enum	file:
+All	jsoncpp.cpp	/^    All  \/\/\/< Keep all comments.$/;"	e	enum:Json::CommentStyle::Enum	file:
+Args	example_code/json/json.h	/^  typedef std::vector<PathArgument> Args;$/;"	t	class:Json::Path
+ArrayIndex	example_code/json/json-forwards.h	/^typedef unsigned int ArrayIndex;$/;"	t	namespace:Json
+ArrayIndex	example_code/json/json.h	/^  typedef Json::ArrayIndex ArrayIndex;$/;"	t	class:Json::Value
+ArrayIndex	example_code/json/json.h	/^typedef unsigned int ArrayIndex;$/;"	t	namespace:Json
+BUILDTYPE	example_code/build/Makefile	/^BUILDTYPE ?= Release$/;"	m
+BuiltStyledStreamWriter	example_code/jsoncpp.cpp	/^BuiltStyledStreamWriter::BuiltStyledStreamWriter($/;"	f	class:Json::BuiltStyledStreamWriter
+BuiltStyledStreamWriter	example_code/jsoncpp.cpp	/^struct BuiltStyledStreamWriter : public StreamWriter$/;"	s	namespace:Json	file:
+BuiltStyledStreamWriter	jsoncpp.cpp	/^BuiltStyledStreamWriter::BuiltStyledStreamWriter($/;"	f	class:Json::BuiltStyledStreamWriter
+BuiltStyledStreamWriter	jsoncpp.cpp	/^struct BuiltStyledStreamWriter : public StreamWriter$/;"	s	namespace:Json	file:
+CC.host	example_code/build/Makefile	/^CC.host ?= gcc$/;"	m
+CC.target	example_code/build/Makefile	/^CC.target ?= $(CC)$/;"	m
+CDriver	jobSchedule.h	/^	CDriver(CID driverID=NULL_ID, CTime availableTime=0, CTime offWorkTime=0, CLocationID availableLoc=NULL_ID)$/;"	f	class:CDriver
+CDriver	jobSchedule.h	/^class CDriver$/;"	c
+CFLAGS.host	example_code/build/Makefile	/^CFLAGS.host ?=$/;"	m
+CFLAGS.target	example_code/build/Makefile	/^CFLAGS.target ?= $(CFLAGS)$/;"	m
+CFLAGS_CC_Debug	example_code/build/addon.target.mk	/^CFLAGS_CC_Debug := \\$/;"	m
+CFLAGS_CC_Release	example_code/build/addon.target.mk	/^CFLAGS_CC_Release := \\$/;"	m
+CFLAGS_C_Debug	example_code/build/addon.target.mk	/^CFLAGS_C_Debug := \\$/;"	m
+CFLAGS_C_Release	example_code/build/addon.target.mk	/^CFLAGS_C_Release := \\$/;"	m
+CFLAGS_Debug	example_code/build/addon.target.mk	/^CFLAGS_Debug := \\$/;"	m
+CFLAGS_OBJCC_Debug	example_code/build/addon.target.mk	/^CFLAGS_OBJCC_Debug :=$/;"	m
+CFLAGS_OBJCC_Release	example_code/build/addon.target.mk	/^CFLAGS_OBJCC_Release :=$/;"	m
+CFLAGS_OBJC_Debug	example_code/build/addon.target.mk	/^CFLAGS_OBJC_Debug :=$/;"	m
+CFLAGS_OBJC_Release	example_code/build/addon.target.mk	/^CFLAGS_OBJC_Release :=$/;"	m
+CFLAGS_Release	example_code/build/addon.target.mk	/^CFLAGS_Release := \\$/;"	m
+CID	jobSchedule.h	/^typedef string CID;$/;"	t
+CLocationID	jobSchedule.h	/^typedef CID CLocationID;$/;"	t
+CPPTL_JSON_ASSERTIONS_H_INCLUDED	example_code/json/json.h	1960;"	d
+CPPTL_JSON_FEATURES_H_INCLUDED	example_code/json/json.h	293;"	d
+CPPTL_JSON_H_INCLUDED	example_code/json/json.h	364;"	d
+CPPTL_JSON_READER_H_INCLUDED	example_code/json/json.h	1204;"	d
+CPath	jobSchedule.h	/^	CPath(CLocationID src=NULL_ID, CLocationID dst=NULL_ID, CTime travelTime=0)$/;"	f	class:CPath
+CPath	jobSchedule.h	/^class CPath$/;"	c
+CRTime	jobSchedule.h	/^typedef int CRTime;$/;"	t
+CScheduleItem	jobSchedule.h	/^class CScheduleItem$/;"	c
+CTask	jobSchedule.h	/^	CTask(CID taskID=NULL_ID, CLocationID destVenue=NULL_ID, CTime _deadline=0, CTime _readyTime=0, CID asgnDriver=NULL_ID, CID prevTask=NULL_ID)$/;"	f	class:CTask
+CTask	jobSchedule.h	/^class CTask$/;"	c
+CTime	jobSchedule.h	/^typedef int CTime;$/;"	t
+CXX.host	example_code/build/Makefile	/^CXX.host ?= g++$/;"	m
+CXX.target	example_code/build/Makefile	/^CXX.target ?= $(CXX)$/;"	m
+CXXFLAGS.host	example_code/build/Makefile	/^CXXFLAGS.host ?=$/;"	m
+CXXFLAGS.target	example_code/build/Makefile	/^CXXFLAGS.target ?= $(CXXFLAGS)$/;"	m
+CZString	example_code/json/json.h	/^  class CZString {$/;"	c	class:Json::Value
+CZString	example_code/jsoncpp.cpp	/^Value::CZString::CZString(ArrayIndex index) : cstr_(0), index_(index) {}$/;"	f	class:Json::Value::CZString
+CZString	example_code/jsoncpp.cpp	/^Value::CZString::CZString(char const* str, unsigned length, DuplicationPolicy allocate)$/;"	f	class:Json::Value::CZString
+CZString	example_code/jsoncpp.cpp	/^Value::CZString::CZString(const CZString& other)$/;"	f	class:Json::Value::CZString
+CZString	jsoncpp.cpp	/^Value::CZString::CZString(ArrayIndex index) : cstr_(0), index_(index) {}$/;"	f	class:Json::Value::CZString
+CZString	jsoncpp.cpp	/^Value::CZString::CZString(char const* str, unsigned length, DuplicationPolicy allocate)$/;"	f	class:Json::Value::CZString
+CZString	jsoncpp.cpp	/^Value::CZString::CZString(const CZString& other)$/;"	f	class:Json::Value::CZString
+Char	example_code/json/json.h	/^  typedef char Char;$/;"	t	class:Json::Reader
+Char	example_code/jsoncpp.cpp	/^  typedef char Char;$/;"	t	class:Json::OurReader	file:
+Char	jsoncpp.cpp	/^  typedef char Char;$/;"	t	class:Json::OurReader	file:
+CharReader	example_code/json/json.h	/^class JSON_API CharReader {$/;"	c	namespace:Json
+CharReaderBuilder	example_code/json/json.h	/^class JSON_API CharReaderBuilder : public CharReader::Factory {$/;"	c	namespace:Json
+CharReaderBuilder	example_code/jsoncpp.cpp	/^CharReaderBuilder::CharReaderBuilder()$/;"	f	class:Json::CharReaderBuilder
+CharReaderBuilder	jsoncpp.cpp	/^CharReaderBuilder::CharReaderBuilder()$/;"	f	class:Json::CharReaderBuilder
+CharReaderPtr	example_code/jsoncpp.cpp	/^typedef std::unique_ptr<CharReader> CharReaderPtr;$/;"	t	namespace:Json	file:
+CharReaderPtr	jsoncpp.cpp	/^typedef std::unique_ptr<CharReader> CharReaderPtr;$/;"	t	namespace:Json	file:
+ChildValues	example_code/json/json.h	/^  typedef std::vector<std::string> ChildValues;$/;"	t	class:Json::StyledStreamWriter
+ChildValues	example_code/json/json.h	/^  typedef std::vector<std::string> ChildValues;$/;"	t	class:Json::StyledWriter
+ChildValues	example_code/jsoncpp.cpp	/^  typedef std::vector<std::string> ChildValues;$/;"	t	struct:Json::BuiltStyledStreamWriter	file:
+ChildValues	jsoncpp.cpp	/^  typedef std::vector<std::string> ChildValues;$/;"	t	struct:Json::BuiltStyledStreamWriter	file:
+CommentInfo	example_code/json/json.h	/^  struct CommentInfo {$/;"	s	class:Json::Value
+CommentInfo	example_code/jsoncpp.cpp	/^Value::CommentInfo::CommentInfo() : comment_(0) {}$/;"	f	class:Json::Value::CommentInfo
+CommentInfo	jsoncpp.cpp	/^Value::CommentInfo::CommentInfo() : comment_(0) {}$/;"	f	class:Json::Value::CommentInfo
+CommentPlacement	example_code/json/json.h	/^enum CommentPlacement {$/;"	g	namespace:Json
+CommentStyle	example_code/jsoncpp.cpp	/^struct CommentStyle {$/;"	s	namespace:Json	file:
+CommentStyle	jsoncpp.cpp	/^struct CommentStyle {$/;"	s	namespace:Json	file:
+CoreFoundation	example_code/build/gyp-mac-tool	/^    import CoreFoundation$/;"	i
+DEFS_Debug	example_code/build/addon.target.mk	/^DEFS_Debug := \\$/;"	m
+DEFS_Release	example_code/build/addon.target.mk	/^DEFS_Release := \\$/;"	m
+DEPFLAGS	example_code/build/Makefile	/^DEPFLAGS = -MMD -MF $(depfile).raw$/;"	m
+Dispatch	example_code/build/gyp-mac-tool	/^  def Dispatch(self, args):$/;"	m	class:MacTool
+DuplicationPolicy	example_code/json/json.h	/^    enum DuplicationPolicy {$/;"	g	class:Json::Value::CZString
+Enum	example_code/jsoncpp.cpp	/^  enum Enum {$/;"	g	struct:Json::CommentStyle	file:
+Enum	jsoncpp.cpp	/^  enum Enum {$/;"	g	struct:Json::CommentStyle	file:
+ErrorInfo	example_code/json/json.h	/^  class ErrorInfo {$/;"	c	class:Json::Reader
+ErrorInfo	example_code/jsoncpp.cpp	/^  class ErrorInfo {$/;"	c	class:Json::OurReader	file:
+ErrorInfo	jsoncpp.cpp	/^  class ErrorInfo {$/;"	c	class:Json::OurReader	file:
+Errors	example_code/json/json.h	/^  typedef std::deque<ErrorInfo> Errors;$/;"	t	class:Json::Reader
+Errors	example_code/jsoncpp.cpp	/^  typedef std::deque<ErrorInfo> Errors;$/;"	t	class:Json::OurReader	file:
+Errors	jsoncpp.cpp	/^  typedef std::deque<ErrorInfo> Errors;$/;"	t	class:Json::OurReader	file:
+Exception	example_code/json/json.h	/^class JSON_API Exception;$/;"	m	namespace:Json	typeref:class:Json::JSON_API
+Exception	example_code/jsoncpp.cpp	/^Exception::Exception(std::string const& msg)$/;"	f	class:Json::Exception
+Exception	example_code/jsoncpp.cpp	/^class JSON_API Exception : public std::exception {$/;"	c	namespace:Json	file:
+Exception	jsoncpp.cpp	/^Exception::Exception(std::string const& msg)$/;"	f	class:Json::Exception
+Exception	jsoncpp.cpp	/^class JSON_API Exception : public std::exception {$/;"	c	namespace:Json	file:
+ExecCodeSignBundle	example_code/build/gyp-mac-tool	/^  def ExecCodeSignBundle(self, key, resource_rules, entitlements, provisioning):$/;"	m	class:MacTool
+ExecCopyBundleResource	example_code/build/gyp-mac-tool	/^  def ExecCopyBundleResource(self, source, dest):$/;"	m	class:MacTool
+ExecCopyInfoPlist	example_code/build/gyp-mac-tool	/^  def ExecCopyInfoPlist(self, source, dest, *keys):$/;"	m	class:MacTool
+ExecFilterLibtool	example_code/build/gyp-mac-tool	/^  def ExecFilterLibtool(self, *cmd_list):$/;"	m	class:MacTool
+ExecFlock	example_code/build/gyp-mac-tool	/^  def ExecFlock(self, lockfile, *cmd_list):$/;"	m	class:MacTool
+ExecPackageFramework	example_code/build/gyp-mac-tool	/^  def ExecPackageFramework(self, framework, version):$/;"	m	class:MacTool
+Factory	example_code/json/json.h	/^  class Factory {$/;"	c	class:Json::CharReader
+Factory	example_code/json/json.h	/^  class JSON_API Factory {$/;"	c	class:Json::StreamWriter
+FastWriter	example_code/json/json.h	/^class JSON_API FastWriter : public Writer {$/;"	c	namespace:Json
+FastWriter	example_code/jsoncpp.cpp	/^FastWriter::FastWriter()$/;"	f	class:Json::FastWriter
+FastWriter	jsoncpp.cpp	/^FastWriter::FastWriter()$/;"	f	class:Json::FastWriter
+Features	example_code/json/json.h	/^class JSON_API Features {$/;"	c	namespace:Json
+Features	example_code/jsoncpp.cpp	/^Features::Features()$/;"	f	class:Json::Features
+Features	jsoncpp.cpp	/^Features::Features()$/;"	f	class:Json::Features
+GYP_CFLAGS	example_code/build/addon.target.mk	/^$(OBJS): GYP_CFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE))$/;"	m
+GYP_CXXFLAGS	example_code/build/addon.target.mk	/^$(OBJS): GYP_CXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE))$/;"	m
+GYP_LDFLAGS	example_code/build/addon.target.mk	/^$(builddir)\/addon.node: GYP_LDFLAGS := $(LDFLAGS_$(BUILDTYPE))$/;"	m
+GYP_LIBTOOLFLAGS	example_code/build/addon.target.mk	/^$(builddir)\/addon.node: GYP_LIBTOOLFLAGS := $(LIBTOOLFLAGS_$(BUILDTYPE))$/;"	m
+GYP_OBJCFLAGS	example_code/build/addon.target.mk	/^$(OBJS): GYP_OBJCFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_C_$(BUILDTYPE)) $(CFLAGS_OBJC_$(BUILDTYPE))$/;"	m
+GYP_OBJCXXFLAGS	example_code/build/addon.target.mk	/^$(OBJS): GYP_OBJCXXFLAGS := $(DEFS_$(BUILDTYPE)) $(INCS_$(BUILDTYPE))  $(CFLAGS_$(BUILDTYPE)) $(CFLAGS_CC_$(BUILDTYPE)) $(CFLAGS_OBJCC_$(BUILDTYPE))$/;"	m
+INCS_Debug	example_code/build/addon.target.mk	/^INCS_Debug := \\$/;"	m
+INCS_Release	example_code/build/addon.target.mk	/^INCS_Release := \\$/;"	m
+InArgs	example_code/json/json.h	/^  typedef std::vector<const PathArgument*> InArgs;$/;"	t	class:Json::Path
+InRange	example_code/jsoncpp.cpp	/^static inline bool InRange(double d, T min, U max) {$/;"	f	namespace:Json
+InRange	jsoncpp.cpp	/^static inline bool InRange(double d, T min, U max) {$/;"	f	namespace:Json
+Int	example_code/json/json-forwards.h	/^typedef int Int;$/;"	t	namespace:Json
+Int	example_code/json/json.h	/^  typedef Json::Int Int;$/;"	t	class:Json::Value
+Int	example_code/json/json.h	/^typedef int Int;$/;"	t	namespace:Json
+Int64	example_code/json/json-forwards.h	/^typedef __int64 Int64;$/;"	t	namespace:Json
+Int64	example_code/json/json-forwards.h	/^typedef long long int Int64;$/;"	t	namespace:Json
+Int64	example_code/json/json.h	/^  typedef Json::Int64 Int64;$/;"	t	class:Json::Value
+Int64	example_code/json/json.h	/^typedef __int64 Int64;$/;"	t	namespace:Json
+Int64	example_code/json/json.h	/^typedef long long int Int64;$/;"	t	namespace:Json
+IsIntegral	example_code/jsoncpp.cpp	/^static bool IsIntegral(double d) {$/;"	f	namespace:Json
+IsIntegral	jsoncpp.cpp	/^static bool IsIntegral(double d) {$/;"	f	namespace:Json
+JSONCPP_DEPRECATED	example_code/json/json-forwards.h	157;"	d
+JSONCPP_DEPRECATED	example_code/json/json-forwards.h	160;"	d
+JSONCPP_DEPRECATED	example_code/json/json-forwards.h	163;"	d
+JSONCPP_DEPRECATED	example_code/json/json-forwards.h	165;"	d
+JSONCPP_DEPRECATED	example_code/json/json-forwards.h	169;"	d
+JSONCPP_DEPRECATED	example_code/json/json.h	184;"	d
+JSONCPP_DEPRECATED	example_code/json/json.h	187;"	d
+JSONCPP_DEPRECATED	example_code/json/json.h	190;"	d
+JSONCPP_DEPRECATED	example_code/json/json.h	192;"	d
+JSONCPP_DEPRECATED	example_code/json/json.h	196;"	d
+JSONCPP_DISABLE_DLL_INTERFACE_WARNING	example_code/json/json-forwards.h	127;"	d
+JSONCPP_DISABLE_DLL_INTERFACE_WARNING	example_code/json/json-forwards.h	132;"	d
+JSONCPP_DISABLE_DLL_INTERFACE_WARNING	example_code/json/json.h	154;"	d
+JSONCPP_DISABLE_DLL_INTERFACE_WARNING	example_code/json/json.h	159;"	d
+JSONCPP_VERSION_HEXA	example_code/json/json.h	96;"	d
+JSONCPP_VERSION_MAJOR	example_code/json/json.h	92;"	d
+JSONCPP_VERSION_MINOR	example_code/json/json.h	93;"	d
+JSONCPP_VERSION_PATCH	example_code/json/json.h	94;"	d
+JSONCPP_VERSION_QUALIFIER	example_code/json/json.h	95;"	d
+JSONCPP_VERSION_STRING	example_code/json/json.h	91;"	d
+JSON_AMALGATED_H_INCLUDED	example_code/json/json.h	76;"	d
+JSON_API	example_code/json/json-forwards.h	123;"	d
+JSON_API	example_code/json/json-forwards.h	126;"	d
+JSON_API	example_code/json/json-forwards.h	131;"	d
+JSON_API	example_code/json/json-forwards.h	136;"	d
+JSON_API	example_code/json/json.h	150;"	d
+JSON_API	example_code/json/json.h	153;"	d
+JSON_API	example_code/json/json.h	158;"	d
+JSON_API	example_code/json/json.h	163;"	d
+JSON_ASSERT	example_code/json/json.h	1976;"	d
+JSON_ASSERT_MESSAGE	example_code/json/json.h	2002;"	d
+JSON_ASSERT_UNREACHABLE	example_code/jsoncpp.cpp	2400;"	d	file:
+JSON_ASSERT_UNREACHABLE	jsoncpp.cpp	2400;"	d	file:
+JSON_CONFIG_H_INCLUDED	example_code/json/json-forwards.h	92;"	d
+JSON_CONFIG_H_INCLUDED	example_code/json/json.h	119;"	d
+JSON_FAIL_MESSAGE	example_code/json/json.h	1979;"	d
+JSON_FORWARDS_H_INCLUDED	example_code/json/json-forwards.h	215;"	d
+JSON_FORWARDS_H_INCLUDED	example_code/json/json.h	242;"	d
+JSON_FORWARD_AMALGATED_H_INCLUDED	example_code/json/json-forwards.h	77;"	d
+JSON_HAS_INT64	example_code/json/json-forwards.h	178;"	d
+JSON_HAS_INT64	example_code/json/json-forwards.h	190;"	d
+JSON_HAS_INT64	example_code/json/json.h	205;"	d
+JSON_HAS_INT64	example_code/json/json.h	217;"	d
+JSON_IS_AMALGAMATION	example_code/json/json-forwards.h	80;"	d
+JSON_IS_AMALGAMATION	example_code/json/json.h	79;"	d
+JSON_USE_CPPTL	example_code/json/json-forwards.h	118;"	d
+JSON_USE_CPPTL	example_code/json/json.h	145;"	d
+JSON_USE_EXCEPTION	example_code/json/json-forwards.h	107;"	d
+JSON_USE_EXCEPTION	example_code/json/json.h	134;"	d
+JSON_USE_INT64_DOUBLE_CONVERSION	example_code/json/json-forwards.h	147;"	d
+JSON_USE_INT64_DOUBLE_CONVERSION	example_code/json/json.h	174;"	d
+JSON_VERSION_H_INCLUDED	example_code/json/json.h	89;"	d
+JSON_WRITER_H_INCLUDED	example_code/json/json.h	1619;"	d
+Json	example_code/json/json-forwards.h	/^namespace Json {$/;"	n
+Json	example_code/json/json.h	/^namespace Json {$/;"	n
+Json	example_code/jsoncpp.cpp	/^namespace Json {$/;"	n	file:
+Json	jsoncpp.cpp	/^namespace Json {$/;"	n	file:
+Kind	example_code/json/json.h	/^  enum Kind {$/;"	g	class:Json::PathArgument
+LDFLAGS.host	example_code/build/Makefile	/^LDFLAGS.host ?=$/;"	m
+LDFLAGS.target	example_code/build/Makefile	/^LDFLAGS.target ?= $(LDFLAGS)$/;"	m
+LDFLAGS_Debug	example_code/build/addon.target.mk	/^LDFLAGS_Debug := \\$/;"	m
+LDFLAGS_Release	example_code/build/addon.target.mk	/^LDFLAGS_Release := \\$/;"	m
+LIBS	example_code/build/addon.target.mk	/^$(builddir)\/addon.node: LIBS := $(LIBS)$/;"	m
+LIBS	example_code/build/addon.target.mk	/^LIBS := \\$/;"	m
+LIBTOOLFLAGS_Debug	example_code/build/addon.target.mk	/^LIBTOOLFLAGS_Debug := \\$/;"	m
+LIBTOOLFLAGS_Release	example_code/build/addon.target.mk	/^LIBTOOLFLAGS_Release := \\$/;"	m
+LIB_JSONCPP_JSON_TOOL_H_INCLUDED	example_code/jsoncpp.cpp	93;"	d	file:
+LIB_JSONCPP_JSON_TOOL_H_INCLUDED	jsoncpp.cpp	93;"	d	file:
+LINK	example_code/build/Makefile	/^LINK ?= .\/gyp-mac-tool flock $(builddir)\/linker.lock $(CXX.target)$/;"	m
+LINK.host	example_code/build/Makefile	/^LINK.host ?= $(CXX.host)$/;"	m
+LINK.target	example_code/build/Makefile	/^LINK.target ?= $(LINK)$/;"	m
+LargestInt	example_code/json/json-forwards.h	/^typedef Int64 LargestInt;$/;"	t	namespace:Json
+LargestInt	example_code/json/json-forwards.h	/^typedef int LargestInt;$/;"	t	namespace:Json
+LargestInt	example_code/json/json.h	/^  typedef Json::LargestInt LargestInt;$/;"	t	class:Json::Value
+LargestInt	example_code/json/json.h	/^typedef Int64 LargestInt;$/;"	t	namespace:Json
+LargestInt	example_code/json/json.h	/^typedef int LargestInt;$/;"	t	namespace:Json
+LargestUInt	example_code/json/json-forwards.h	/^typedef UInt64 LargestUInt;$/;"	t	namespace:Json
+LargestUInt	example_code/json/json-forwards.h	/^typedef unsigned int LargestUInt;$/;"	t	namespace:Json
+LargestUInt	example_code/json/json.h	/^  typedef Json::LargestUInt LargestUInt;$/;"	t	class:Json::Value
+LargestUInt	example_code/json/json.h	/^typedef UInt64 LargestUInt;$/;"	t	namespace:Json
+LargestUInt	example_code/json/json.h	/^typedef unsigned int LargestUInt;$/;"	t	namespace:Json
+Location	example_code/json/json.h	/^  typedef const Char* Location;$/;"	t	class:Json::Reader
+Location	example_code/jsoncpp.cpp	/^  typedef const Char* Location;$/;"	t	class:Json::OurReader	file:
+Location	jsoncpp.cpp	/^  typedef const Char* Location;$/;"	t	class:Json::OurReader	file:
+LogicError	example_code/json/json.h	/^class JSON_API LogicError;$/;"	m	namespace:Json	typeref:class:Json::JSON_API
+LogicError	example_code/jsoncpp.cpp	/^LogicError::LogicError(std::string const& msg)$/;"	f	class:Json::LogicError
+LogicError	example_code/jsoncpp.cpp	/^class JSON_API LogicError : public Exception {$/;"	c	namespace:Json	file:
+LogicError	jsoncpp.cpp	/^LogicError::LogicError(std::string const& msg)$/;"	f	class:Json::LogicError
+LogicError	jsoncpp.cpp	/^class JSON_API LogicError : public Exception {$/;"	c	namespace:Json	file:
+MAKEFLAGS	example_code/build/Makefile	/^MAKEFLAGS=-r$/;"	m
+MAXNLOCATIONS	jobSchedule.h	8;"	d
+MacTool	example_code/build/gyp-mac-tool	/^class MacTool(object):$/;"	c
+Members	example_code/json/json.h	/^  typedef std::vector<std::string> Members;$/;"	t	class:Json::Value
+Method	example_code/hello.cc	/^void Method(const FunctionCallbackInfo<Value>& args) {$/;"	f
+Method	wrapper.cpp	/^void Method(const FunctionCallbackInfo<Value>& args) {$/;"	f
+Most	example_code/jsoncpp.cpp	/^    Most,  \/\/\/< Recover odd behavior of previous versions (not implemented yet).$/;"	e	enum:Json::CommentStyle::Enum	file:
+Most	jsoncpp.cpp	/^    Most,  \/\/\/< Recover odd behavior of previous versions (not implemented yet).$/;"	e	enum:Json::CommentStyle::Enum	file:
+NULL_ID	jobSchedule.h	23;"	d
+Nodes	example_code/json/json.h	/^  typedef std::stack<Value*> Nodes;$/;"	t	class:Json::Reader
+Nodes	example_code/jsoncpp.cpp	/^  typedef std::stack<Value*> Nodes;$/;"	t	class:Json::OurReader	file:
+Nodes	jsoncpp.cpp	/^  typedef std::stack<Value*> Nodes;$/;"	t	class:Json::OurReader	file:
+None	example_code/jsoncpp.cpp	/^    None,  \/\/\/< Drop all comments.$/;"	e	enum:Json::CommentStyle::Enum	file:
+None	jsoncpp.cpp	/^    None,  \/\/\/< Drop all comments.$/;"	e	enum:Json::CommentStyle::Enum	file:
+OBJS	example_code/build/addon.target.mk	/^OBJS := \\$/;"	m
+ObjectValues	example_code/json/json.h	/^  typedef CppTL::SmallMap<CZString, Value> ObjectValues;$/;"	t	class:Json::Value
+ObjectValues	example_code/json/json.h	/^  typedef std::map<CZString, Value> ObjectValues;$/;"	t	class:Json::Value
+Optimization target	docs/ResearchNotes.tex	/^A weight parameter $\\alpha$.$/;"	b
+OurCharReader	example_code/jsoncpp.cpp	/^  OurCharReader($/;"	f	class:Json::OurCharReader
+OurCharReader	example_code/jsoncpp.cpp	/^class OurCharReader : public CharReader {$/;"	c	namespace:Json	file:
+OurCharReader	jsoncpp.cpp	/^  OurCharReader($/;"	f	class:Json::OurCharReader
+OurCharReader	jsoncpp.cpp	/^class OurCharReader : public CharReader {$/;"	c	namespace:Json	file:
+OurFeatures	example_code/jsoncpp.cpp	/^OurFeatures::OurFeatures()$/;"	f	class:Json::OurFeatures
+OurFeatures	example_code/jsoncpp.cpp	/^class OurFeatures {$/;"	c	namespace:Json	file:
+OurFeatures	jsoncpp.cpp	/^OurFeatures::OurFeatures()$/;"	f	class:Json::OurFeatures
+OurFeatures	jsoncpp.cpp	/^class OurFeatures {$/;"	c	namespace:Json	file:
+OurReader	example_code/jsoncpp.cpp	/^OurReader::OurReader(OurFeatures const& features)$/;"	f	class:Json::OurReader
+OurReader	example_code/jsoncpp.cpp	/^class OurReader {$/;"	c	namespace:Json	file:
+OurReader	jsoncpp.cpp	/^OurReader::OurReader(OurFeatures const& features)$/;"	f	class:Json::OurReader
+OurReader	jsoncpp.cpp	/^class OurReader {$/;"	c	namespace:Json	file:
+PARAS_H	jobSchedule.h	2;"	d
+Path	example_code/json/json.h	/^class JSON_API Path {$/;"	c	namespace:Json
+Path	example_code/jsoncpp.cpp	/^Path::Path(const std::string& path,$/;"	f	class:Json::Path
+Path	jsoncpp.cpp	/^Path::Path(const std::string& path,$/;"	f	class:Json::Path
+PathArgument	example_code/json/json.h	/^class JSON_API PathArgument {$/;"	c	namespace:Json
+PathArgument	example_code/jsoncpp.cpp	/^PathArgument::PathArgument() : key_(), index_(), kind_(kindNone) {}$/;"	f	class:Json::PathArgument
+PathArgument	example_code/jsoncpp.cpp	/^PathArgument::PathArgument(ArrayIndex index)$/;"	f	class:Json::PathArgument
+PathArgument	example_code/jsoncpp.cpp	/^PathArgument::PathArgument(const char* key)$/;"	f	class:Json::PathArgument
+PathArgument	example_code/jsoncpp.cpp	/^PathArgument::PathArgument(const std::string& key)$/;"	f	class:Json::PathArgument
+PathArgument	jsoncpp.cpp	/^PathArgument::PathArgument() : key_(), index_(), kind_(kindNone) {}$/;"	f	class:Json::PathArgument
+PathArgument	jsoncpp.cpp	/^PathArgument::PathArgument(ArrayIndex index)$/;"	f	class:Json::PathArgument
+PathArgument	jsoncpp.cpp	/^PathArgument::PathArgument(const char* key)$/;"	f	class:Json::PathArgument
+PathArgument	jsoncpp.cpp	/^PathArgument::PathArgument(const std::string& key)$/;"	f	class:Json::PathArgument
+Reader	example_code/json/json.h	/^class JSON_API Reader {$/;"	c	namespace:Json
+Reader	example_code/jsoncpp.cpp	/^Reader::Reader()$/;"	f	class:Json::Reader
+Reader	example_code/jsoncpp.cpp	/^Reader::Reader(const Features& features)$/;"	f	class:Json::Reader
+Reader	jsoncpp.cpp	/^Reader::Reader()$/;"	f	class:Json::Reader
+Reader	jsoncpp.cpp	/^Reader::Reader(const Features& features)$/;"	f	class:Json::Reader
+RuntimeError	example_code/json/json.h	/^class JSON_API RuntimeError;$/;"	m	namespace:Json	typeref:class:Json::JSON_API
+RuntimeError	example_code/jsoncpp.cpp	/^RuntimeError::RuntimeError(std::string const& msg)$/;"	f	class:Json::RuntimeError
+RuntimeError	example_code/jsoncpp.cpp	/^class JSON_API RuntimeError : public Exception {$/;"	c	namespace:Json	file:
+RuntimeError	jsoncpp.cpp	/^RuntimeError::RuntimeError(std::string const& msg)$/;"	f	class:Json::RuntimeError
+RuntimeError	jsoncpp.cpp	/^class JSON_API RuntimeError : public Exception {$/;"	c	namespace:Json	file:
+SelfType	example_code/json/json.h	/^  typedef ValueConstIterator SelfType;$/;"	t	class:Json::ValueConstIterator
+SelfType	example_code/json/json.h	/^  typedef ValueIterator SelfType;$/;"	t	class:Json::ValueIterator
+SelfType	example_code/json/json.h	/^  typedef ValueIteratorBase SelfType;$/;"	t	class:Json::ValueIteratorBase
+StaticString	example_code/json/json.h	/^  explicit StaticString(const char* czstring) : c_str_(czstring) {}$/;"	f	class:Json::StaticString
+StaticString	example_code/json/json.h	/^class JSON_API StaticString {$/;"	c	namespace:Json
+StreamWriter	example_code/json/json.h	/^class JSON_API StreamWriter {$/;"	c	namespace:Json
+StreamWriter	example_code/jsoncpp.cpp	/^StreamWriter::StreamWriter()$/;"	f	class:Json::StreamWriter
+StreamWriter	jsoncpp.cpp	/^StreamWriter::StreamWriter()$/;"	f	class:Json::StreamWriter
+StreamWriterBuilder	example_code/json/json.h	/^class JSON_API StreamWriterBuilder : public StreamWriter::Factory {$/;"	c	namespace:Json
+StreamWriterBuilder	example_code/jsoncpp.cpp	/^StreamWriterBuilder::StreamWriterBuilder()$/;"	f	class:Json::StreamWriterBuilder
+StreamWriterBuilder	jsoncpp.cpp	/^StreamWriterBuilder::StreamWriterBuilder()$/;"	f	class:Json::StreamWriterBuilder
+StreamWriterPtr	example_code/jsoncpp.cpp	/^typedef std::unique_ptr<StreamWriter> StreamWriterPtr;$/;"	t	namespace:Json	file:
+StreamWriterPtr	jsoncpp.cpp	/^typedef std::unique_ptr<StreamWriter> StreamWriterPtr;$/;"	t	namespace:Json	file:
+StringStorage	example_code/json/json.h	/^    struct StringStorage {$/;"	s	class:Json::Value::CZString
+StructuredError	example_code/json/json.h	/^  struct StructuredError {$/;"	s	class:Json::Reader
+StructuredError	example_code/jsoncpp.cpp	/^  struct StructuredError {$/;"	s	class:Json::OurReader	file:
+StructuredError	jsoncpp.cpp	/^  struct StructuredError {$/;"	s	class:Json::OurReader	file:
+StyledStreamWriter	example_code/json/json.h	/^class JSON_API StyledStreamWriter {$/;"	c	namespace:Json
+StyledStreamWriter	example_code/jsoncpp.cpp	/^StyledStreamWriter::StyledStreamWriter(std::string indentation)$/;"	f	class:Json::StyledStreamWriter
+StyledStreamWriter	jsoncpp.cpp	/^StyledStreamWriter::StyledStreamWriter(std::string indentation)$/;"	f	class:Json::StyledStreamWriter
+StyledWriter	example_code/json/json.h	/^class JSON_API StyledWriter : public Writer {$/;"	c	namespace:Json
+StyledWriter	example_code/jsoncpp.cpp	/^StyledWriter::StyledWriter()$/;"	f	class:Json::StyledWriter
+StyledWriter	jsoncpp.cpp	/^StyledWriter::StyledWriter()$/;"	f	class:Json::StyledWriter
+System Model	docs/ResearchNotes.tex	/^\\maketitle$/;"	s
+TARGET	example_code/build/addon.target.mk	/^TARGET := addon$/;"	m
+TOOLSET	example_code/build/Makefile	/^TOOLSET := target$/;"	m
+TOOLSET	example_code/build/addon.target.mk	/^$(OBJS): TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	example_code/build/addon.target.mk	/^$(builddir)\/addon.node: TOOLSET := $(TOOLSET)$/;"	m
+TOOLSET	example_code/build/addon.target.mk	/^TOOLSET := target$/;"	m
+The input of the scheduling problem	docs/ResearchNotes.tex	/^\\section{System Model}$/;"	b
+Token	example_code/json/json.h	/^  class Token {$/;"	c	class:Json::Reader
+Token	example_code/jsoncpp.cpp	/^  class Token {$/;"	c	class:Json::OurReader	file:
+Token	jsoncpp.cpp	/^  class Token {$/;"	c	class:Json::OurReader	file:
+TokenType	example_code/json/json.h	/^  enum TokenType {$/;"	g	class:Json::Reader
+TokenType	example_code/jsoncpp.cpp	/^  enum TokenType {$/;"	g	class:Json::OurReader	file:
+TokenType	jsoncpp.cpp	/^  enum TokenType {$/;"	g	class:Json::OurReader	file:
+UInt	example_code/json/json-forwards.h	/^typedef unsigned int UInt;$/;"	t	namespace:Json
+UInt	example_code/json/json.h	/^  typedef Json::UInt UInt;$/;"	t	class:Json::Value
+UInt	example_code/json/json.h	/^typedef unsigned int UInt;$/;"	t	namespace:Json
+UInt64	example_code/json/json-forwards.h	/^typedef unsigned __int64 UInt64;$/;"	t	namespace:Json
+UInt64	example_code/json/json-forwards.h	/^typedef unsigned long long int UInt64;$/;"	t	namespace:Json
+UInt64	example_code/json/json.h	/^  typedef Json::UInt64 UInt64;$/;"	t	class:Json::Value
+UInt64	example_code/json/json.h	/^typedef unsigned __int64 UInt64;$/;"	t	namespace:Json
+UInt64	example_code/json/json.h	/^typedef unsigned long long int UInt64;$/;"	t	namespace:Json
+UIntToStringBuffer	example_code/jsoncpp.cpp	/^typedef char UIntToStringBuffer[uintToStringBufferSize];$/;"	t	namespace:Json	file:
+UIntToStringBuffer	jsoncpp.cpp	/^typedef char UIntToStringBuffer[uintToStringBufferSize];$/;"	t	namespace:Json	file:
+Value	example_code/json/json.h	/^class JSON_API Value {$/;"	c	namespace:Json
+Value	example_code/jsoncpp.cpp	/^Value::Value(Int value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(Int64 value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(UInt value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(UInt64 value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(Value const& other)$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(ValueType type) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(bool value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(const CppTL::ConstString& value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(const StaticString& value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(const char* beginValue, const char* endValue) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(const char* value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(const std::string& value) {$/;"	f	class:Json::Value
+Value	example_code/jsoncpp.cpp	/^Value::Value(double value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(Int value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(Int64 value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(UInt value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(UInt64 value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(Value const& other)$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(ValueType type) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(bool value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(const CppTL::ConstString& value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(const StaticString& value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(const char* beginValue, const char* endValue) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(const char* value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(const std::string& value) {$/;"	f	class:Json::Value
+Value	jsoncpp.cpp	/^Value::Value(double value) {$/;"	f	class:Json::Value
+ValueConstIterator	example_code/json/json.h	/^class JSON_API ValueConstIterator : public ValueIteratorBase {$/;"	c	namespace:Json
+ValueConstIterator	example_code/jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator($/;"	f	class:Json::ValueConstIterator
+ValueConstIterator	example_code/jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator() {}$/;"	f	class:Json::ValueConstIterator
+ValueConstIterator	jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator($/;"	f	class:Json::ValueConstIterator
+ValueConstIterator	jsoncpp.cpp	/^ValueConstIterator::ValueConstIterator() {}$/;"	f	class:Json::ValueConstIterator
+ValueHolder	example_code/json/json.h	/^  union ValueHolder {$/;"	u	class:Json::Value
+ValueIterator	example_code/json/json.h	/^class JSON_API ValueIterator : public ValueIteratorBase {$/;"	c	namespace:Json
+ValueIterator	example_code/jsoncpp.cpp	/^ValueIterator::ValueIterator() {}$/;"	f	class:Json::ValueIterator
+ValueIterator	example_code/jsoncpp.cpp	/^ValueIterator::ValueIterator(const Value::ObjectValues::iterator& current)$/;"	f	class:Json::ValueIterator
+ValueIterator	example_code/jsoncpp.cpp	/^ValueIterator::ValueIterator(const ValueConstIterator& other)$/;"	f	class:Json::ValueIterator
+ValueIterator	example_code/jsoncpp.cpp	/^ValueIterator::ValueIterator(const ValueIterator& other)$/;"	f	class:Json::ValueIterator
+ValueIterator	jsoncpp.cpp	/^ValueIterator::ValueIterator() {}$/;"	f	class:Json::ValueIterator
+ValueIterator	jsoncpp.cpp	/^ValueIterator::ValueIterator(const Value::ObjectValues::iterator& current)$/;"	f	class:Json::ValueIterator
+ValueIterator	jsoncpp.cpp	/^ValueIterator::ValueIterator(const ValueConstIterator& other)$/;"	f	class:Json::ValueIterator
+ValueIterator	jsoncpp.cpp	/^ValueIterator::ValueIterator(const ValueIterator& other)$/;"	f	class:Json::ValueIterator
+ValueIteratorBase	example_code/json/json.h	/^class JSON_API ValueIteratorBase {$/;"	c	namespace:Json
+ValueIteratorBase	example_code/jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase($/;"	f	class:Json::ValueIteratorBase
+ValueIteratorBase	example_code/jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase()$/;"	f	class:Json::ValueIteratorBase
+ValueIteratorBase	jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase($/;"	f	class:Json::ValueIteratorBase
+ValueIteratorBase	jsoncpp.cpp	/^ValueIteratorBase::ValueIteratorBase()$/;"	f	class:Json::ValueIteratorBase
+ValueType	example_code/json/json.h	/^enum ValueType {$/;"	g	namespace:Json
+Writer	example_code/json/json.h	/^class JSON_API Writer {$/;"	c	namespace:Json
+_CommandifyName	example_code/build/gyp-mac-tool	/^  def _CommandifyName(self, name_string):$/;"	m	class:MacTool
+_CopyStringsFile	example_code/build/gyp-mac-tool	/^  def _CopyStringsFile(self, source, dest):$/;"	m	class:MacTool
+_CopyXIBFile	example_code/build/gyp-mac-tool	/^  def _CopyXIBFile(self, source, dest):$/;"	m	class:MacTool
+_DetectInputEncoding	example_code/build/gyp-mac-tool	/^  def _DetectInputEncoding(self, file_name):$/;"	m	class:MacTool
+_ExpandVariables	example_code/build/gyp-mac-tool	/^  def _ExpandVariables(self, data, substitutions):$/;"	m	class:MacTool
+_FindProvisioningProfile	example_code/build/gyp-mac-tool	/^  def _FindProvisioningProfile(self, profile, bundle_identifier):$/;"	m	class:MacTool
+_GetCFBundleIdentifier	example_code/build/gyp-mac-tool	/^  def _GetCFBundleIdentifier(self):$/;"	m	class:MacTool
+_GetSubstitutions	example_code/build/gyp-mac-tool	/^  def _GetSubstitutions(self, bundle_identifier, app_identifier_prefix):$/;"	m	class:MacTool
+_InstallEntitlements	example_code/build/gyp-mac-tool	/^  def _InstallEntitlements(self, entitlements, substitutions, overrides):$/;"	m	class:MacTool
+_InstallProvisioningProfile	example_code/build/gyp-mac-tool	/^  def _InstallProvisioningProfile(self, profile, bundle_identifier):$/;"	m	class:MacTool
+_InstallResourceRules	example_code/build/gyp-mac-tool	/^  def _InstallResourceRules(self, resource_rules):$/;"	m	class:MacTool
+_LoadPlistMaybeBinary	example_code/build/gyp-mac-tool	/^  def _LoadPlistMaybeBinary(self, plist_path):$/;"	m	class:MacTool
+_LoadProvisioningProfile	example_code/build/gyp-mac-tool	/^  def _LoadProvisioningProfile(self, profile_path):$/;"	m	class:MacTool
+_Relink	example_code/build/gyp-mac-tool	/^  def _Relink(self, dest, link):$/;"	m	class:MacTool
+_WritePkgInfo	example_code/build/gyp-mac-tool	/^  def _WritePkgInfo(self, info_plist):$/;"	m	class:MacTool
+abs_builddir	example_code/build/Makefile	/^abs_builddir := $(abspath $(builddir))$/;"	m
+abs_obj	example_code/build/Makefile	/^abs_obj := $(abspath $(obj))$/;"	m
+abs_srcdir	example_code/build/Makefile	/^abs_srcdir := $(abspath $(srcdir))$/;"	m
+addChildValues_	example_code/json/json.h	/^  bool addChildValues_;$/;"	m	class:Json::StyledWriter
+addChildValues_	example_code/jsoncpp.cpp	/^  bool addChildValues_ : 1;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+addChildValues_	jsoncpp.cpp	/^  bool addChildValues_ : 1;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+addComment	example_code/jsoncpp.cpp	/^OurReader::addComment(Location begin, Location end, CommentPlacement placement) {$/;"	f	class:Json::OurReader
+addComment	example_code/jsoncpp.cpp	/^Reader::addComment(Location begin, Location end, CommentPlacement placement) {$/;"	f	class:Json::Reader
+addComment	jsoncpp.cpp	/^OurReader::addComment(Location begin, Location end, CommentPlacement placement) {$/;"	f	class:Json::OurReader
+addComment	jsoncpp.cpp	/^Reader::addComment(Location begin, Location end, CommentPlacement placement) {$/;"	f	class:Json::Reader
+addError	example_code/jsoncpp.cpp	/^OurReader::addError(const std::string& message, Token& token, Location extra) {$/;"	f	class:Json::OurReader
+addError	example_code/jsoncpp.cpp	/^Reader::addError(const std::string& message, Token& token, Location extra) {$/;"	f	class:Json::Reader
+addError	jsoncpp.cpp	/^OurReader::addError(const std::string& message, Token& token, Location extra) {$/;"	f	class:Json::OurReader
+addError	jsoncpp.cpp	/^Reader::addError(const std::string& message, Token& token, Location extra) {$/;"	f	class:Json::Reader
+addErrorAndRecover	example_code/jsoncpp.cpp	/^bool OurReader::addErrorAndRecover(const std::string& message,$/;"	f	class:Json::OurReader
+addErrorAndRecover	example_code/jsoncpp.cpp	/^bool Reader::addErrorAndRecover(const std::string& message,$/;"	f	class:Json::Reader
+addErrorAndRecover	jsoncpp.cpp	/^bool OurReader::addErrorAndRecover(const std::string& message,$/;"	f	class:Json::OurReader
+addErrorAndRecover	jsoncpp.cpp	/^bool Reader::addErrorAndRecover(const std::string& message,$/;"	f	class:Json::Reader
+addPathInArg	example_code/jsoncpp.cpp	/^void Path::addPathInArg(const std::string& \/*path*\/,$/;"	f	class:Json::Path
+addPathInArg	jsoncpp.cpp	/^void Path::addPathInArg(const std::string& \/*path*\/,$/;"	f	class:Json::Path
+addon	example_code/helloworld.js	/^var addon = require('.\/build\/Release\/addon');$/;"	v
+all	example_code/jsoncpp.cpp	/^Features Features::all() { return Features(); }$/;"	f	class:Json::Features
+all	example_code/jsoncpp.cpp	/^OurFeatures OurFeatures::all() { return OurFeatures(); }$/;"	f	class:Json::OurFeatures
+all	jsoncpp.cpp	/^Features Features::all() { return Features(); }$/;"	f	class:Json::Features
+all	jsoncpp.cpp	/^OurFeatures OurFeatures::all() { return OurFeatures(); }$/;"	f	class:Json::OurFeatures
+all_deps	example_code/build/Makefile	/^all_deps :=$/;"	m
+allowComments_	example_code/json/json.h	/^  bool allowComments_;$/;"	m	class:Json::Features
+allowComments_	example_code/jsoncpp.cpp	/^  bool allowComments_;$/;"	m	class:Json::OurFeatures	file:
+allowComments_	jsoncpp.cpp	/^  bool allowComments_;$/;"	m	class:Json::OurFeatures	file:
+allowDroppedNullPlaceholders_	example_code/json/json.h	/^  bool allowDroppedNullPlaceholders_;$/;"	m	class:Json::Features
+allowDroppedNullPlaceholders_	example_code/jsoncpp.cpp	/^  bool allowDroppedNullPlaceholders_;$/;"	m	class:Json::OurFeatures	file:
+allowDroppedNullPlaceholders_	jsoncpp.cpp	/^  bool allowDroppedNullPlaceholders_;$/;"	m	class:Json::OurFeatures	file:
+allowNumericKeys_	example_code/json/json.h	/^  bool allowNumericKeys_;$/;"	m	class:Json::Features
+allowNumericKeys_	example_code/jsoncpp.cpp	/^  bool allowNumericKeys_;$/;"	m	class:Json::OurFeatures	file:
+allowNumericKeys_	jsoncpp.cpp	/^  bool allowNumericKeys_;$/;"	m	class:Json::OurFeatures	file:
+allowSingleQuotes_	example_code/jsoncpp.cpp	/^  bool allowSingleQuotes_;$/;"	m	class:Json::OurFeatures	file:
+allowSingleQuotes_	jsoncpp.cpp	/^  bool allowSingleQuotes_;$/;"	m	class:Json::OurFeatures	file:
+append	example_code/jsoncpp.cpp	/^Value& Value::append(const Value& value) { return (*this)[size()] = value; }$/;"	f	class:Json::Value
+append	jsoncpp.cpp	/^Value& Value::append(const Value& value) { return (*this)[size()] = value; }$/;"	f	class:Json::Value
+args_	example_code/json/json.h	/^  Args args_;$/;"	m	class:Json::Path
+arrange_future_tasks	jobSchedule.cpp	/^void ALG::arrange_future_tasks(CDriver & driver, vector<CTask> & tasks)$/;"	f	class:ALG
+arrayValue	example_code/json/json.h	/^  arrayValue,    \/\/\/< array value (ordered list)$/;"	e	enum:Json::ValueType
+asBool	example_code/jsoncpp.cpp	/^bool Value::asBool() const {$/;"	f	class:Json::Value
+asBool	jsoncpp.cpp	/^bool Value::asBool() const {$/;"	f	class:Json::Value
+asCString	example_code/jsoncpp.cpp	/^const char* Value::asCString() const {$/;"	f	class:Json::Value
+asCString	jsoncpp.cpp	/^const char* Value::asCString() const {$/;"	f	class:Json::Value
+asConstString	example_code/jsoncpp.cpp	/^CppTL::ConstString Value::asConstString() const {$/;"	f	class:Json::Value
+asConstString	jsoncpp.cpp	/^CppTL::ConstString Value::asConstString() const {$/;"	f	class:Json::Value
+asDouble	example_code/jsoncpp.cpp	/^double Value::asDouble() const {$/;"	f	class:Json::Value
+asDouble	jsoncpp.cpp	/^double Value::asDouble() const {$/;"	f	class:Json::Value
+asFloat	example_code/jsoncpp.cpp	/^float Value::asFloat() const {$/;"	f	class:Json::Value
+asFloat	jsoncpp.cpp	/^float Value::asFloat() const {$/;"	f	class:Json::Value
+asInt	example_code/jsoncpp.cpp	/^Value::Int Value::asInt() const {$/;"	f	class:Json::Value
+asInt	jsoncpp.cpp	/^Value::Int Value::asInt() const {$/;"	f	class:Json::Value
+asInt64	example_code/jsoncpp.cpp	/^Value::Int64 Value::asInt64() const {$/;"	f	class:Json::Value
+asInt64	jsoncpp.cpp	/^Value::Int64 Value::asInt64() const {$/;"	f	class:Json::Value
+asLargestInt	example_code/jsoncpp.cpp	/^LargestInt Value::asLargestInt() const {$/;"	f	class:Json::Value
+asLargestInt	jsoncpp.cpp	/^LargestInt Value::asLargestInt() const {$/;"	f	class:Json::Value
+asLargestUInt	example_code/jsoncpp.cpp	/^LargestUInt Value::asLargestUInt() const {$/;"	f	class:Json::Value
+asLargestUInt	jsoncpp.cpp	/^LargestUInt Value::asLargestUInt() const {$/;"	f	class:Json::Value
+asString	example_code/jsoncpp.cpp	/^std::string Value::asString() const {$/;"	f	class:Json::Value
+asString	jsoncpp.cpp	/^std::string Value::asString() const {$/;"	f	class:Json::Value
+asUInt	example_code/jsoncpp.cpp	/^Value::UInt Value::asUInt() const {$/;"	f	class:Json::Value
+asUInt	jsoncpp.cpp	/^Value::UInt Value::asUInt() const {$/;"	f	class:Json::Value
+asUInt64	example_code/jsoncpp.cpp	/^Value::UInt64 Value::asUInt64() const {$/;"	f	class:Json::Value
+asUInt64	jsoncpp.cpp	/^Value::UInt64 Value::asUInt64() const {$/;"	f	class:Json::Value
+asgnDriverID	jobSchedule.h	/^	CID	asgnDriverID; \/\/if != NULL_DRIVERID, this task can only be assigned to this driver$/;"	m	class:CTask
+asgnTaskID	jobSchedule.h	/^	vector<CID>  asgnTaskID; \/\/the tasks assigned to this driver, in chronological order$/;"	m	class:CScheduleItem
+assignTaskToDriver	jobSchedule.cpp	/^void ALG::assignTaskToDriver(int iTask, int iDriver, vector<CDriver> & drivers, vector<CTask> & tasks)$/;"	f	class:ALG
+avlbLocation	jobSchedule.h	/^	CLocationID	avlbLocation;$/;"	m	class:CDriver
+avlbTime	jobSchedule.h	/^	CTime	avlbTime; $/;"	m	class:CDriver
+begin	example_code/jsoncpp.cpp	/^Value::const_iterator Value::begin() const {$/;"	f	class:Json::Value
+begin	example_code/jsoncpp.cpp	/^Value::iterator Value::begin() {$/;"	f	class:Json::Value
+begin	jsoncpp.cpp	/^Value::const_iterator Value::begin() const {$/;"	f	class:Json::Value
+begin	jsoncpp.cpp	/^Value::iterator Value::begin() {$/;"	f	class:Json::Value
+begin_	example_code/json/json.h	/^  Location begin_;$/;"	m	class:Json::Reader
+begin_	example_code/jsoncpp.cpp	/^  Location begin_;$/;"	m	class:Json::OurReader	file:
+begin_	jsoncpp.cpp	/^  Location begin_;$/;"	m	class:Json::OurReader	file:
+bool_	example_code/json/json.h	/^    bool bool_;$/;"	m	union:Json::Value::ValueHolder
+booleanValue	example_code/json/json.h	/^  booleanValue,  \/\/\/< bool value$/;"	e	enum:Json::ValueType
+builddir	example_code/build/Makefile	/^builddir ?= $(builddir_name)\/$(BUILDTYPE)$/;"	m
+builddir_name	example_code/build/Makefile	/^builddir_name ?= .$/;"	m
+c_str	example_code/json/json.h	/^  const char* c_str() const { return c_str_; }$/;"	f	class:Json::StaticString
+c_str_	example_code/json/json.h	/^  const char* c_str_;$/;"	m	class:Json::StaticString
+calDFTime	jobSchedule.cpp	/^void ALG::calDFTime(int iStart, int iEnd, CDriver & driver, vector<CTask> & tasks, int curLoc, CTime & dTime, CTime & fTime)$/;"	f	class:ALG
+checkConstraints	test.cpp	/^bool checkConstraints(vector<CDriver> & drivers, vector<CTask> & tasks, vector<CPath> & paths, vector<CScheduleItem> &schedule) $/;"	f
+childValues_	example_code/json/json.h	/^  ChildValues childValues_;$/;"	m	class:Json::StyledStreamWriter
+childValues_	example_code/json/json.h	/^  ChildValues childValues_;$/;"	m	class:Json::StyledWriter
+childValues_	example_code/jsoncpp.cpp	/^  ChildValues childValues_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+childValues_	jsoncpp.cpp	/^  ChildValues childValues_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+clear	example_code/jsoncpp.cpp	/^void Value::clear() {$/;"	f	class:Json::Value
+clear	jsoncpp.cpp	/^void Value::clear() {$/;"	f	class:Json::Value
+cmd_alink	example_code/build/Makefile	/^cmd_alink = rm -f $@ && .\/gyp-mac-tool filter-libtool libtool $(GYP_LIBTOOLFLAGS) -static -o $@ $(filter %.o,$^)$/;"	m
+cmd_cc	example_code/build/Makefile	/^cmd_cc = $(CC.$(TOOLSET)) $(GYP_CFLAGS) $(DEPFLAGS) $(CFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_copy	example_code/build/Makefile	/^cmd_copy = rm -rf "$@" && cp -af "$<" "$@"$/;"	m
+cmd_cxx	example_code/build/Makefile	/^cmd_cxx = $(CXX.$(TOOLSET)) $(GYP_CXXFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_infoplist	example_code/build/Makefile	/^cmd_infoplist = $(CC.$(TOOLSET)) -E -P -Wno-trigraphs -x c $(INFOPLIST_DEFINES) "$<" -o "$@"$/;"	m
+cmd_link	example_code/build/Makefile	/^cmd_link = $(LINK.$(TOOLSET)) $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o "$@" $(LD_INPUTS) $(LIBS)$/;"	m
+cmd_mac_package_framework	example_code/build/Makefile	/^cmd_mac_package_framework = .\/gyp-mac-tool package-framework "$@" $(4)$/;"	m
+cmd_mac_tool	example_code/build/Makefile	/^cmd_mac_tool = .\/gyp-mac-tool $(4) $< "$@"$/;"	m
+cmd_objc	example_code/build/Makefile	/^cmd_objc = $(CC.$(TOOLSET)) $(GYP_OBJCFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_objcxx	example_code/build/Makefile	/^cmd_objcxx = $(CXX.$(TOOLSET)) $(GYP_OBJCXXFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_pch_c	example_code/build/Makefile	/^cmd_pch_c = $(CC.$(TOOLSET)) $(GYP_PCH_CFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_pch_cc	example_code/build/Makefile	/^cmd_pch_cc = $(CC.$(TOOLSET)) $(GYP_PCH_CXXFLAGS) $(DEPFLAGS) $(CXXFLAGS.$(TOOLSET)) -c -o $@ $<$/;"	m
+cmd_pch_m	example_code/build/Makefile	/^cmd_pch_m = $(CC.$(TOOLSET)) $(GYP_PCH_OBJCFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_pch_mm	example_code/build/Makefile	/^cmd_pch_mm = $(CC.$(TOOLSET)) $(GYP_PCH_OBJCXXFLAGS) $(DEPFLAGS) -c -o $@ $<$/;"	m
+cmd_regen_makefile	example_code/build/Makefile	/^cmd_regen_makefile = cd $(srcdir); \/usr\/local\/lib\/node_modules\/node-gyp\/gyp\/gyp_main.py -fmake --ignore-environment "--toplevel-dir=." -I\/Users\/stream\/Downloads\/projects\/examplecode\/nodejs\/build\/config.gypi -I\/usr\/local\/lib\/node_modules\/node-gyp\/addon.gypi -I\/Users\/stream\/.node-gyp\/0.12.2\/common.gypi "--depth=." "-Goutput_dir=." "--generator-output=build" "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=\/Users\/stream\/.node-gyp\/0.12.2" "-Dmodule_root_dir=\/Users\/stream\/Downloads\/projects\/examplecode\/nodejs" binding.gyp$/;"	m
+cmd_solink	example_code/build/Makefile	/^cmd_solink = $(LINK.$(TOOLSET)) -shared $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o "$@" $(LD_INPUTS) $(LIBS)$/;"	m
+cmd_solink_module	example_code/build/Makefile	/^cmd_solink_module = $(LINK.$(TOOLSET)) -bundle $(GYP_LDFLAGS) $(LDFLAGS.$(TOOLSET)) -o $@ $(filter-out FORCE_DO_CMD, $^) $(LIBS)$/;"	m
+cmd_touch	example_code/build/Makefile	/^cmd_touch = touch $@$/;"	m
+codePointToUTF8	example_code/jsoncpp.cpp	/^static inline std::string codePointToUTF8(unsigned int cp) {$/;"	f	namespace:Json
+codePointToUTF8	jsoncpp.cpp	/^static inline std::string codePointToUTF8(unsigned int cp) {$/;"	f	namespace:Json
+collectComments_	example_code/json/json.h	/^  bool collectComments_;$/;"	m	class:Json::Reader
+collectComments_	example_code/jsoncpp.cpp	/^  bool collectComments_;$/;"	m	class:Json::OurReader	file:
+collectComments_	example_code/jsoncpp.cpp	/^  bool const collectComments_;$/;"	m	class:Json::OurCharReader	file:
+collectComments_	jsoncpp.cpp	/^  bool collectComments_;$/;"	m	class:Json::OurReader	file:
+collectComments_	jsoncpp.cpp	/^  bool const collectComments_;$/;"	m	class:Json::OurCharReader	file:
+colonSymbol_	example_code/jsoncpp.cpp	/^  std::string colonSymbol_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+colonSymbol_	jsoncpp.cpp	/^  std::string colonSymbol_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+command_changed	example_code/build/Makefile	/^command_changed = $(or $(subst $(cmd_$(1)),,$(cmd_$(call replace_spaces,$@))),\\$/;"	m
+commentAfter	example_code/json/json.h	/^  commentAfter, \/\/\/< a comment on the line after a value (only make sense for$/;"	e	enum:Json::CommentPlacement
+commentAfterOnSameLine	example_code/json/json.h	/^  commentAfterOnSameLine, \/\/\/< a comment just after a value on the same line$/;"	e	enum:Json::CommentPlacement
+commentBefore	example_code/json/json.h	/^  commentBefore = 0,      \/\/\/< a comment placed on the line before a value$/;"	e	enum:Json::CommentPlacement
+comment_	example_code/json/json.h	/^    char* comment_;$/;"	m	struct:Json::Value::CommentInfo
+commentsBefore_	example_code/json/json.h	/^  std::string commentsBefore_;$/;"	m	class:Json::Reader
+commentsBefore_	example_code/jsoncpp.cpp	/^  std::string commentsBefore_;$/;"	m	class:Json::OurReader	file:
+commentsBefore_	jsoncpp.cpp	/^  std::string commentsBefore_;$/;"	m	class:Json::OurReader	file:
+comments_	example_code/json/json.h	/^  CommentInfo* comments_;$/;"	m	class:Json::Value
+compare	example_code/jsoncpp.cpp	/^int Value::compare(const Value& other) const {$/;"	f	class:Json::Value
+compare	jsoncpp.cpp	/^int Value::compare(const Value& other) const {$/;"	f	class:Json::Value
+computeDistance	example_code/jsoncpp.cpp	/^ValueIteratorBase::computeDistance(const SelfType& other) const {$/;"	f	class:Json::ValueIteratorBase
+computeDistance	jsoncpp.cpp	/^ValueIteratorBase::computeDistance(const SelfType& other) const {$/;"	f	class:Json::ValueIteratorBase
+const_iterator	example_code/json/json.h	/^  typedef ValueConstIterator const_iterator;$/;"	t	class:Json::Value
+containsControlCharacter	example_code/jsoncpp.cpp	/^static bool containsControlCharacter(const char* str) {$/;"	f	namespace:Json
+containsControlCharacter	jsoncpp.cpp	/^static bool containsControlCharacter(const char* str) {$/;"	f	namespace:Json
+containsControlCharacter0	example_code/jsoncpp.cpp	/^static bool containsControlCharacter0(const char* str, unsigned len) {$/;"	f	namespace:Json
+containsControlCharacter0	jsoncpp.cpp	/^static bool containsControlCharacter0(const char* str, unsigned len) {$/;"	f	namespace:Json
+containsNewLine	example_code/jsoncpp.cpp	/^static bool containsNewLine(Reader::Location begin, Reader::Location end) {$/;"	f	namespace:Json
+containsNewLine	jsoncpp.cpp	/^static bool containsNewLine(Reader::Location begin, Reader::Location end) {$/;"	f	namespace:Json
+copy	example_code/jsoncpp.cpp	/^void ValueIteratorBase::copy(const SelfType& other) {$/;"	f	class:Json::ValueIteratorBase
+copy	jsoncpp.cpp	/^void ValueIteratorBase::copy(const SelfType& other) {$/;"	f	class:Json::ValueIteratorBase
+cs_	example_code/jsoncpp.cpp	/^  CommentStyle::Enum cs_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+cs_	jsoncpp.cpp	/^  CommentStyle::Enum cs_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+cstr_	example_code/json/json.h	/^    char const* cstr_;  \/\/ actually, a prefixed string, unless policy is noDup$/;"	m	class:Json::Value::CZString
+currentValue	example_code/jsoncpp.cpp	/^Value& OurReader::currentValue() { return *(nodes_.top()); }$/;"	f	class:Json::OurReader
+currentValue	example_code/jsoncpp.cpp	/^Value& Reader::currentValue() { return *(nodes_.top()); }$/;"	f	class:Json::Reader
+currentValue	jsoncpp.cpp	/^Value& OurReader::currentValue() { return *(nodes_.top()); }$/;"	f	class:Json::OurReader
+currentValue	jsoncpp.cpp	/^Value& Reader::currentValue() { return *(nodes_.top()); }$/;"	f	class:Json::Reader
+current_	example_code/json/json.h	/^  Location current_;$/;"	m	class:Json::Reader
+current_	example_code/json/json.h	/^  Value::ObjectValues::iterator current_;$/;"	m	class:Json::ValueIteratorBase
+current_	example_code/jsoncpp.cpp	/^  Location current_;$/;"	m	class:Json::OurReader	file:
+current_	jsoncpp.cpp	/^  Location current_;$/;"	m	class:Json::OurReader	file:
+d_files	example_code/build/Makefile	/^d_files := $(wildcard $(foreach f,$(all_deps),$(depsdir)\/$(f).d))$/;"	m
+data	example_code/jsoncpp.cpp	/^const char* Value::CZString::data() const { return cstr_; }$/;"	f	class:Json::Value::CZString
+data	jsoncpp.cpp	/^const char* Value::CZString::data() const { return cstr_; }$/;"	f	class:Json::Value::CZString
+deadline	jobSchedule.h	/^	CTime	deadline; $/;"	m	class:CTask
+decodeDouble	example_code/jsoncpp.cpp	/^bool OurReader::decodeDouble(Token& token) {$/;"	f	class:Json::OurReader
+decodeDouble	example_code/jsoncpp.cpp	/^bool OurReader::decodeDouble(Token& token, Value& decoded) {$/;"	f	class:Json::OurReader
+decodeDouble	example_code/jsoncpp.cpp	/^bool Reader::decodeDouble(Token& token) {$/;"	f	class:Json::Reader
+decodeDouble	example_code/jsoncpp.cpp	/^bool Reader::decodeDouble(Token& token, Value& decoded) {$/;"	f	class:Json::Reader
+decodeDouble	jsoncpp.cpp	/^bool OurReader::decodeDouble(Token& token) {$/;"	f	class:Json::OurReader
+decodeDouble	jsoncpp.cpp	/^bool OurReader::decodeDouble(Token& token, Value& decoded) {$/;"	f	class:Json::OurReader
+decodeDouble	jsoncpp.cpp	/^bool Reader::decodeDouble(Token& token) {$/;"	f	class:Json::Reader
+decodeDouble	jsoncpp.cpp	/^bool Reader::decodeDouble(Token& token, Value& decoded) {$/;"	f	class:Json::Reader
+decodeNumber	example_code/jsoncpp.cpp	/^bool OurReader::decodeNumber(Token& token) {$/;"	f	class:Json::OurReader
+decodeNumber	example_code/jsoncpp.cpp	/^bool OurReader::decodeNumber(Token& token, Value& decoded) {$/;"	f	class:Json::OurReader
+decodeNumber	example_code/jsoncpp.cpp	/^bool Reader::decodeNumber(Token& token) {$/;"	f	class:Json::Reader
+decodeNumber	example_code/jsoncpp.cpp	/^bool Reader::decodeNumber(Token& token, Value& decoded) {$/;"	f	class:Json::Reader
+decodeNumber	jsoncpp.cpp	/^bool OurReader::decodeNumber(Token& token) {$/;"	f	class:Json::OurReader
+decodeNumber	jsoncpp.cpp	/^bool OurReader::decodeNumber(Token& token, Value& decoded) {$/;"	f	class:Json::OurReader
+decodeNumber	jsoncpp.cpp	/^bool Reader::decodeNumber(Token& token) {$/;"	f	class:Json::Reader
+decodeNumber	jsoncpp.cpp	/^bool Reader::decodeNumber(Token& token, Value& decoded) {$/;"	f	class:Json::Reader
+decodePrefixedString	example_code/jsoncpp.cpp	/^inline static void decodePrefixedString($/;"	f	namespace:Json
+decodePrefixedString	jsoncpp.cpp	/^inline static void decodePrefixedString($/;"	f	namespace:Json
+decodeString	example_code/jsoncpp.cpp	/^bool OurReader::decodeString(Token& token) {$/;"	f	class:Json::OurReader
+decodeString	example_code/jsoncpp.cpp	/^bool OurReader::decodeString(Token& token, std::string& decoded) {$/;"	f	class:Json::OurReader
+decodeString	example_code/jsoncpp.cpp	/^bool Reader::decodeString(Token& token) {$/;"	f	class:Json::Reader
+decodeString	example_code/jsoncpp.cpp	/^bool Reader::decodeString(Token& token, std::string& decoded) {$/;"	f	class:Json::Reader
+decodeString	jsoncpp.cpp	/^bool OurReader::decodeString(Token& token) {$/;"	f	class:Json::OurReader
+decodeString	jsoncpp.cpp	/^bool OurReader::decodeString(Token& token, std::string& decoded) {$/;"	f	class:Json::OurReader
+decodeString	jsoncpp.cpp	/^bool Reader::decodeString(Token& token) {$/;"	f	class:Json::Reader
+decodeString	jsoncpp.cpp	/^bool Reader::decodeString(Token& token, std::string& decoded) {$/;"	f	class:Json::Reader
+decodeUnicodeCodePoint	example_code/jsoncpp.cpp	/^bool OurReader::decodeUnicodeCodePoint(Token& token,$/;"	f	class:Json::OurReader
+decodeUnicodeCodePoint	example_code/jsoncpp.cpp	/^bool Reader::decodeUnicodeCodePoint(Token& token,$/;"	f	class:Json::Reader
+decodeUnicodeCodePoint	jsoncpp.cpp	/^bool OurReader::decodeUnicodeCodePoint(Token& token,$/;"	f	class:Json::OurReader
+decodeUnicodeCodePoint	jsoncpp.cpp	/^bool Reader::decodeUnicodeCodePoint(Token& token,$/;"	f	class:Json::Reader
+decodeUnicodeEscapeSequence	example_code/jsoncpp.cpp	/^bool OurReader::decodeUnicodeEscapeSequence(Token& token,$/;"	f	class:Json::OurReader
+decodeUnicodeEscapeSequence	example_code/jsoncpp.cpp	/^bool Reader::decodeUnicodeEscapeSequence(Token& token,$/;"	f	class:Json::Reader
+decodeUnicodeEscapeSequence	jsoncpp.cpp	/^bool OurReader::decodeUnicodeEscapeSequence(Token& token,$/;"	f	class:Json::OurReader
+decodeUnicodeEscapeSequence	jsoncpp.cpp	/^bool Reader::decodeUnicodeEscapeSequence(Token& token,$/;"	f	class:Json::Reader
+decrement	example_code/jsoncpp.cpp	/^void ValueIteratorBase::decrement() {$/;"	f	class:Json::ValueIteratorBase
+decrement	jsoncpp.cpp	/^void ValueIteratorBase::decrement() {$/;"	f	class:Json::ValueIteratorBase
+delayTime	jobSchedule.h	/^	CTime	delayTime;$/;"	m	class:CDriver
+depfile	example_code/build/Makefile	/^depfile = $(depsdir)\/$(call replace_spaces,$@).d$/;"	m
+depsdir	example_code/build/Makefile	/^depsdir := $(builddir)\/.deps$/;"	m
+deref	example_code/jsoncpp.cpp	/^Value& ValueIteratorBase::deref() const {$/;"	f	class:Json::ValueIteratorBase
+deref	jsoncpp.cpp	/^Value& ValueIteratorBase::deref() const {$/;"	f	class:Json::ValueIteratorBase
+dest	jobSchedule.h	/^	CLocationID dest;$/;"	m	class:CPath
+difference_type	example_code/json/json.h	/^  typedef int difference_type;$/;"	t	class:Json::ValueIterator
+difference_type	example_code/json/json.h	/^  typedef int difference_type;$/;"	t	class:Json::ValueIteratorBase
+dirx	example_code/build/Makefile	/^dirx = $(call unreplace_spaces,$(dir $(call replace_spaces,$1)))$/;"	m
+dist	jobSchedule.h	/^	CRTime dist;$/;"	m	class:CPath
+do_cmd	example_code/build/Makefile	/^define do_cmd$/;"	m
+do_postbuilds	example_code/build/Makefile	/^define do_postbuilds$/;"	m
+document_	example_code/json/json.h	/^  std::ostream* document_;$/;"	m	class:Json::StyledStreamWriter
+document_	example_code/json/json.h	/^  std::string document_;$/;"	m	class:Json::FastWriter
+document_	example_code/json/json.h	/^  std::string document_;$/;"	m	class:Json::Reader
+document_	example_code/json/json.h	/^  std::string document_;$/;"	m	class:Json::StyledWriter
+document_	example_code/jsoncpp.cpp	/^  std::string document_;$/;"	m	class:Json::OurReader	file:
+document_	jsoncpp.cpp	/^  std::string document_;$/;"	m	class:Json::OurReader	file:
+driverID	jobSchedule.h	/^	CID driverID;$/;"	m	class:CScheduleItem
+dropNullPlaceholders	example_code/jsoncpp.cpp	/^void FastWriter::dropNullPlaceholders() { dropNullPlaceholders_ = true; }$/;"	f	class:Json::FastWriter
+dropNullPlaceholders	jsoncpp.cpp	/^void FastWriter::dropNullPlaceholders() { dropNullPlaceholders_ = true; }$/;"	f	class:Json::FastWriter
+dropNullPlaceholders_	example_code/json/json.h	/^  bool dropNullPlaceholders_;$/;"	m	class:Json::FastWriter
+duplicate	example_code/json/json.h	/^      duplicate,$/;"	e	enum:Json::Value::CZString::DuplicationPolicy
+duplicateAndPrefixStringValue	example_code/jsoncpp.cpp	/^static inline char* duplicateAndPrefixStringValue($/;"	f	namespace:Json
+duplicateAndPrefixStringValue	jsoncpp.cpp	/^static inline char* duplicateAndPrefixStringValue($/;"	f	namespace:Json
+duplicateOnCopy	example_code/json/json.h	/^      duplicateOnCopy$/;"	e	enum:Json::Value::CZString::DuplicationPolicy
+duplicateStringValue	example_code/jsoncpp.cpp	/^static inline char* duplicateStringValue(const char* value,$/;"	f	namespace:Json
+duplicateStringValue	jsoncpp.cpp	/^static inline char* duplicateStringValue(const char* value,$/;"	f	namespace:Json
+empty	example_code/build/Makefile	/^empty :=$/;"	m
+empty	example_code/jsoncpp.cpp	/^bool Value::empty() const {$/;"	f	class:Json::Value
+empty	jsoncpp.cpp	/^bool Value::empty() const {$/;"	f	class:Json::Value
+enableYAMLCompatibility	example_code/jsoncpp.cpp	/^void FastWriter::enableYAMLCompatibility() { yamlCompatiblityEnabled_ = true; }$/;"	f	class:Json::FastWriter
+enableYAMLCompatibility	jsoncpp.cpp	/^void FastWriter::enableYAMLCompatibility() { yamlCompatiblityEnabled_ = true; }$/;"	f	class:Json::FastWriter
+end	example_code/jsoncpp.cpp	/^Value::const_iterator Value::end() const {$/;"	f	class:Json::Value
+end	example_code/jsoncpp.cpp	/^Value::iterator Value::end() {$/;"	f	class:Json::Value
+end	jsoncpp.cpp	/^Value::const_iterator Value::end() const {$/;"	f	class:Json::Value
+end	jsoncpp.cpp	/^Value::iterator Value::end() {$/;"	f	class:Json::Value
+end_	example_code/json/json.h	/^    Location end_;$/;"	m	class:Json::Reader::Token
+end_	example_code/json/json.h	/^  Location end_;$/;"	m	class:Json::Reader
+end_	example_code/jsoncpp.cpp	/^    Location end_;$/;"	m	class:Json::OurReader::Token	file:
+end_	example_code/jsoncpp.cpp	/^  Location end_;$/;"	m	class:Json::OurReader	file:
+end_	jsoncpp.cpp	/^    Location end_;$/;"	m	class:Json::OurReader::Token	file:
+end_	jsoncpp.cpp	/^  Location end_;$/;"	m	class:Json::OurReader	file:
+endingLineFeedSymbol_	example_code/jsoncpp.cpp	/^  std::string endingLineFeedSymbol_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+endingLineFeedSymbol_	jsoncpp.cpp	/^  std::string endingLineFeedSymbol_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+errors_	example_code/json/json.h	/^  Errors errors_;$/;"	m	class:Json::Reader
+errors_	example_code/jsoncpp.cpp	/^  Errors errors_;$/;"	m	class:Json::OurReader	file:
+errors_	jsoncpp.cpp	/^  Errors errors_;$/;"	m	class:Json::OurReader	file:
+escape_quotes	example_code/build/Makefile	/^escape_quotes = $(subst ','\\'',$(1))$/;"	m
+escape_vars	example_code/build/Makefile	/^escape_vars = $(subst $$,$$$$,$(1))$/;"	m
+exact_echo	example_code/build/Makefile	/^exact_echo = printf '%s\\n' '$(call escape_quotes,$(1))'$/;"	m
+extra_	example_code/json/json.h	/^    Location extra_;$/;"	m	class:Json::Reader::ErrorInfo
+extra_	example_code/jsoncpp.cpp	/^    Location extra_;$/;"	m	class:Json::OurReader::ErrorInfo	file:
+extra_	jsoncpp.cpp	/^    Location extra_;$/;"	m	class:Json::OurReader::ErrorInfo	file:
+failIfExtra_	example_code/jsoncpp.cpp	/^  bool failIfExtra_;$/;"	m	class:Json::OurFeatures	file:
+failIfExtra_	jsoncpp.cpp	/^  bool failIfExtra_;$/;"	m	class:Json::OurFeatures	file:
+fcntl	example_code/build/gyp-mac-tool	/^import fcntl$/;"	i
+features_	example_code/json/json.h	/^  Features features_;$/;"	m	class:Json::Reader
+features_	example_code/jsoncpp.cpp	/^  OurFeatures const features_;$/;"	m	class:Json::OurReader	file:
+features_	jsoncpp.cpp	/^  OurFeatures const features_;$/;"	m	class:Json::OurReader	file:
+find	example_code/jsoncpp.cpp	/^Value const* Value::find(char const* key, char const* end) const$/;"	f	class:Json::Value
+find	jsoncpp.cpp	/^Value const* Value::find(char const* key, char const* end) const$/;"	f	class:Json::Value
+findScheduleBasic	jobSchedule.cpp	/^bool ALG::findScheduleBasic(vector<CDriver> & drivers, vector<CTask> & tasks, vector<CPath> & paths, vector<CScheduleItem> &schedule)$/;"	f	class:ALG
+findScheduleGreedy	jobSchedule.cpp	/^bool ALG::findScheduleGreedy(vector<CDriver> & drivers, vector<CTask> & tasks, vector<CPath> & paths, vector<CScheduleItem> &schedule)$/;"	f	class:ALG
+finishTime	jobSchedule.h	/^	CTime   finishTime;$/;"	m	class:CDriver
+fixNumericLocale	example_code/jsoncpp.cpp	/^static inline void fixNumericLocale(char* begin, char* end) {$/;"	f	namespace:Json
+fixNumericLocale	jsoncpp.cpp	/^static inline void fixNumericLocale(char* begin, char* end) {$/;"	f	namespace:Json
+fixup_dep	example_code/build/Makefile	/^define fixup_dep$/;"	m
+fnmatch	example_code/build/gyp-mac-tool	/^import fnmatch$/;"	i
+genPath_case2	test.cpp	/^void genPath_case2(vector<CPath> & paths)$/;"	f
+genRandomPath	test.cpp	/^void genRandomPath(vector<CDriver> & drivers, vector<CTask> & tasks, vector<CPath> & paths)$/;"	f
+get	example_code/jsoncpp.cpp	/^Value Value::get(ArrayIndex index, const Value& defaultValue) const {$/;"	f	class:Json::Value
+get	example_code/jsoncpp.cpp	/^Value Value::get(char const* key, Value const& defaultValue) const$/;"	f	class:Json::Value
+get	example_code/jsoncpp.cpp	/^Value Value::get(char const* key, char const* end, Value const& defaultValue) const$/;"	f	class:Json::Value
+get	example_code/jsoncpp.cpp	/^Value Value::get(const CppTL::ConstString& key,$/;"	f	class:Json::Value
+get	example_code/jsoncpp.cpp	/^Value Value::get(std::string const& key, Value const& defaultValue) const$/;"	f	class:Json::Value
+get	jsoncpp.cpp	/^Value Value::get(ArrayIndex index, const Value& defaultValue) const {$/;"	f	class:Json::Value
+get	jsoncpp.cpp	/^Value Value::get(char const* key, Value const& defaultValue) const$/;"	f	class:Json::Value
+get	jsoncpp.cpp	/^Value Value::get(char const* key, char const* end, Value const& defaultValue) const$/;"	f	class:Json::Value
+get	jsoncpp.cpp	/^Value Value::get(const CppTL::ConstString& key,$/;"	f	class:Json::Value
+get	jsoncpp.cpp	/^Value Value::get(std::string const& key, Value const& defaultValue) const$/;"	f	class:Json::Value
+getComment	example_code/jsoncpp.cpp	/^std::string Value::getComment(CommentPlacement placement) const {$/;"	f	class:Json::Value
+getComment	jsoncpp.cpp	/^std::string Value::getComment(CommentPlacement placement) const {$/;"	f	class:Json::Value
+getFormatedErrorMessages	example_code/jsoncpp.cpp	/^std::string Reader::getFormatedErrorMessages() const {$/;"	f	class:Json::Reader
+getFormatedErrorMessages	jsoncpp.cpp	/^std::string Reader::getFormatedErrorMessages() const {$/;"	f	class:Json::Reader
+getFormattedErrorMessages	example_code/jsoncpp.cpp	/^std::string OurReader::getFormattedErrorMessages() const {$/;"	f	class:Json::OurReader
+getFormattedErrorMessages	example_code/jsoncpp.cpp	/^std::string Reader::getFormattedErrorMessages() const {$/;"	f	class:Json::Reader
+getFormattedErrorMessages	jsoncpp.cpp	/^std::string OurReader::getFormattedErrorMessages() const {$/;"	f	class:Json::OurReader
+getFormattedErrorMessages	jsoncpp.cpp	/^std::string Reader::getFormattedErrorMessages() const {$/;"	f	class:Json::Reader
+getLocationLineAndColumn	example_code/jsoncpp.cpp	/^std::string OurReader::getLocationLineAndColumn(Location location) const {$/;"	f	class:Json::OurReader
+getLocationLineAndColumn	example_code/jsoncpp.cpp	/^std::string Reader::getLocationLineAndColumn(Location location) const {$/;"	f	class:Json::Reader
+getLocationLineAndColumn	example_code/jsoncpp.cpp	/^void OurReader::getLocationLineAndColumn(Location location,$/;"	f	class:Json::OurReader
+getLocationLineAndColumn	example_code/jsoncpp.cpp	/^void Reader::getLocationLineAndColumn(Location location,$/;"	f	class:Json::Reader
+getLocationLineAndColumn	jsoncpp.cpp	/^std::string OurReader::getLocationLineAndColumn(Location location) const {$/;"	f	class:Json::OurReader
+getLocationLineAndColumn	jsoncpp.cpp	/^std::string Reader::getLocationLineAndColumn(Location location) const {$/;"	f	class:Json::Reader
+getLocationLineAndColumn	jsoncpp.cpp	/^void OurReader::getLocationLineAndColumn(Location location,$/;"	f	class:Json::OurReader
+getLocationLineAndColumn	jsoncpp.cpp	/^void Reader::getLocationLineAndColumn(Location location,$/;"	f	class:Json::Reader
+getMemberNames	example_code/jsoncpp.cpp	/^Value::Members Value::getMemberNames() const {$/;"	f	class:Json::Value
+getMemberNames	jsoncpp.cpp	/^Value::Members Value::getMemberNames() const {$/;"	f	class:Json::Value
+getNextChar	example_code/jsoncpp.cpp	/^OurReader::Char OurReader::getNextChar() {$/;"	f	class:Json::OurReader
+getNextChar	example_code/jsoncpp.cpp	/^Reader::Char Reader::getNextChar() {$/;"	f	class:Json::Reader
+getNextChar	jsoncpp.cpp	/^OurReader::Char OurReader::getNextChar() {$/;"	f	class:Json::OurReader
+getNextChar	jsoncpp.cpp	/^Reader::Char Reader::getNextChar() {$/;"	f	class:Json::Reader
+getOffsetLimit	example_code/jsoncpp.cpp	/^size_t Value::getOffsetLimit() const { return limit_; }$/;"	f	class:Json::Value
+getOffsetLimit	jsoncpp.cpp	/^size_t Value::getOffsetLimit() const { return limit_; }$/;"	f	class:Json::Value
+getOffsetStart	example_code/jsoncpp.cpp	/^size_t Value::getOffsetStart() const { return start_; }$/;"	f	class:Json::Value
+getOffsetStart	jsoncpp.cpp	/^size_t Value::getOffsetStart() const { return start_; }$/;"	f	class:Json::Value
+getString	example_code/jsoncpp.cpp	/^bool Value::getString(char const** str, char const** end) const {$/;"	f	class:Json::Value
+getString	jsoncpp.cpp	/^bool Value::getString(char const** str, char const** end) const {$/;"	f	class:Json::Value
+getStructuredErrors	example_code/jsoncpp.cpp	/^std::vector<OurReader::StructuredError> OurReader::getStructuredErrors() const {$/;"	f	class:Json::OurReader
+getStructuredErrors	example_code/jsoncpp.cpp	/^std::vector<Reader::StructuredError> Reader::getStructuredErrors() const {$/;"	f	class:Json::Reader
+getStructuredErrors	jsoncpp.cpp	/^std::vector<OurReader::StructuredError> OurReader::getStructuredErrors() const {$/;"	f	class:Json::OurReader
+getStructuredErrors	jsoncpp.cpp	/^std::vector<Reader::StructuredError> Reader::getStructuredErrors() const {$/;"	f	class:Json::Reader
+getValidReaderKeys	example_code/jsoncpp.cpp	/^static void getValidReaderKeys(std::set<std::string>* valid_keys)$/;"	f	namespace:Json
+getValidReaderKeys	jsoncpp.cpp	/^static void getValidReaderKeys(std::set<std::string>* valid_keys)$/;"	f	namespace:Json
+getValidWriterKeys	example_code/jsoncpp.cpp	/^static void getValidWriterKeys(std::set<std::string>* valid_keys)$/;"	f	namespace:Json
+getValidWriterKeys	jsoncpp.cpp	/^static void getValidWriterKeys(std::set<std::string>* valid_keys)$/;"	f	namespace:Json
+glob	example_code/build/gyp-mac-tool	/^import glob$/;"	i
+good	example_code/jsoncpp.cpp	/^bool OurReader::good() const {$/;"	f	class:Json::OurReader
+good	example_code/jsoncpp.cpp	/^bool Reader::good() const {$/;"	f	class:Json::Reader
+good	jsoncpp.cpp	/^bool OurReader::good() const {$/;"	f	class:Json::OurReader
+good	jsoncpp.cpp	/^bool Reader::good() const {$/;"	f	class:Json::Reader
+hasComment	example_code/jsoncpp.cpp	/^bool Value::hasComment(CommentPlacement placement) const {$/;"	f	class:Json::Value
+hasComment	jsoncpp.cpp	/^bool Value::hasComment(CommentPlacement placement) const {$/;"	f	class:Json::Value
+hasCommentForValue	example_code/jsoncpp.cpp	/^bool BuiltStyledStreamWriter::hasCommentForValue(const Value& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+hasCommentForValue	example_code/jsoncpp.cpp	/^bool StyledStreamWriter::hasCommentForValue(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+hasCommentForValue	example_code/jsoncpp.cpp	/^bool StyledWriter::hasCommentForValue(const Value& value) {$/;"	f	class:Json::StyledWriter
+hasCommentForValue	jsoncpp.cpp	/^bool BuiltStyledStreamWriter::hasCommentForValue(const Value& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+hasCommentForValue	jsoncpp.cpp	/^bool StyledStreamWriter::hasCommentForValue(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+hasCommentForValue	jsoncpp.cpp	/^bool StyledWriter::hasCommentForValue(const Value& value) {$/;"	f	class:Json::StyledWriter
+iAsgnDriver	jobSchedule.h	/^	int	iAsgnDriver; \/\/corresponds to asgnDriverID, >= 0 if it appears in driver's tasksAtHand$/;"	m	class:CTask
+iDriver	jobSchedule.h	/^	int	iDriver; \/\/working index, assigned only this task appears in driver's taskList$/;"	m	class:CTask
+iDst	jobSchedule.h	/^	int iSrc, iDst;$/;"	m	class:CPath
+iLocation	jobSchedule.h	/^	int	iLocation;$/;"	m	class:CDriver
+iNextTask	jobSchedule.h	/^	int	iNextTask;$/;"	m	class:CTask
+iPrevTask	jobSchedule.h	/^	int	iPrevTask;$/;"	m	class:CTask
+iSrc	jobSchedule.h	/^	int iSrc, iDst;$/;"	m	class:CPath
+iVenue	jobSchedule.h	/^	int	iVenue;$/;"	m	class:CTask
+id	jobSchedule.h	/^	CID 	id;$/;"	m	class:CDriver
+id	jobSchedule.h	/^	CID 	id;$/;"	m	class:CTask
+increment	example_code/jsoncpp.cpp	/^void ValueIteratorBase::increment() {$/;"	f	class:Json::ValueIteratorBase
+increment	jsoncpp.cpp	/^void ValueIteratorBase::increment() {$/;"	f	class:Json::ValueIteratorBase
+indent	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::indent() { indentString_ += indentation_; }$/;"	f	class:Json::BuiltStyledStreamWriter
+indent	example_code/jsoncpp.cpp	/^void StyledStreamWriter::indent() { indentString_ += indentation_; }$/;"	f	class:Json::StyledStreamWriter
+indent	example_code/jsoncpp.cpp	/^void StyledWriter::indent() { indentString_ += std::string(indentSize_, ' '); }$/;"	f	class:Json::StyledWriter
+indent	jsoncpp.cpp	/^void BuiltStyledStreamWriter::indent() { indentString_ += indentation_; }$/;"	f	class:Json::BuiltStyledStreamWriter
+indent	jsoncpp.cpp	/^void StyledStreamWriter::indent() { indentString_ += indentation_; }$/;"	f	class:Json::StyledStreamWriter
+indent	jsoncpp.cpp	/^void StyledWriter::indent() { indentString_ += std::string(indentSize_, ' '); }$/;"	f	class:Json::StyledWriter
+indentSize_	example_code/json/json.h	/^  int indentSize_;$/;"	m	class:Json::StyledWriter
+indentString_	example_code/json/json.h	/^  std::string indentString_;$/;"	m	class:Json::StyledStreamWriter
+indentString_	example_code/json/json.h	/^  std::string indentString_;$/;"	m	class:Json::StyledWriter
+indentString_	example_code/jsoncpp.cpp	/^  std::string indentString_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+indentString_	jsoncpp.cpp	/^  std::string indentString_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+indentation_	example_code/json/json.h	/^  std::string indentation_;$/;"	m	class:Json::StyledStreamWriter
+indentation_	example_code/jsoncpp.cpp	/^  std::string indentation_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+indentation_	jsoncpp.cpp	/^  std::string indentation_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+indented_	example_code/jsoncpp.cpp	/^  bool indented_ : 1;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+indented_	jsoncpp.cpp	/^  bool indented_ : 1;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+index	example_code/jsoncpp.cpp	/^ArrayIndex Value::CZString::index() const { return index_; }$/;"	f	class:Json::Value::CZString
+index	example_code/jsoncpp.cpp	/^UInt ValueIteratorBase::index() const {$/;"	f	class:Json::ValueIteratorBase
+index	jsoncpp.cpp	/^ArrayIndex Value::CZString::index() const { return index_; }$/;"	f	class:Json::Value::CZString
+index	jsoncpp.cpp	/^UInt ValueIteratorBase::index() const {$/;"	f	class:Json::ValueIteratorBase
+index_	example_code/json/json.h	/^      ArrayIndex index_;$/;"	m	union:Json::Value::CZString::__anon1
+index_	example_code/json/json.h	/^  ArrayIndex index_;$/;"	m	class:Json::PathArgument
+init	example_code/hello.cc	/^void init(Handle<Object> exports) {$/;"	f
+init	wrapper.cpp	/^void init(Handle<Object> exports) {$/;"	f
+initBasic	example_code/jsoncpp.cpp	/^void Value::initBasic(ValueType type, bool allocated) {$/;"	f	class:Json::Value
+initBasic	jsoncpp.cpp	/^void Value::initBasic(ValueType type, bool allocated) {$/;"	f	class:Json::Value
+intValue	example_code/json/json.h	/^  intValue,      \/\/\/< signed integer value$/;"	e	enum:Json::ValueType
+int_	example_code/json/json.h	/^    LargestInt int_;$/;"	m	union:Json::Value::ValueHolder
+integerToDouble	example_code/jsoncpp.cpp	/^static inline double integerToDouble(Json::UInt64 value) {$/;"	f	namespace:Json
+integerToDouble	example_code/jsoncpp.cpp	/^template <typename T> static inline double integerToDouble(T value) {$/;"	f	namespace:Json
+integerToDouble	jsoncpp.cpp	/^static inline double integerToDouble(Json::UInt64 value) {$/;"	f	namespace:Json
+integerToDouble	jsoncpp.cpp	/^template <typename T> static inline double integerToDouble(T value) {$/;"	f	namespace:Json
+invalidPath	example_code/jsoncpp.cpp	/^void Path::invalidPath(const std::string& \/*path*\/, int \/*location*\/) {$/;"	f	class:Json::Path
+invalidPath	jsoncpp.cpp	/^void Path::invalidPath(const std::string& \/*path*\/, int \/*location*\/) {$/;"	f	class:Json::Path
+isArray	example_code/jsoncpp.cpp	/^bool Value::isArray() const { return type_ == arrayValue; }$/;"	f	class:Json::Value
+isArray	jsoncpp.cpp	/^bool Value::isArray() const { return type_ == arrayValue; }$/;"	f	class:Json::Value
+isBool	example_code/jsoncpp.cpp	/^bool Value::isBool() const { return type_ == booleanValue; }$/;"	f	class:Json::Value
+isBool	jsoncpp.cpp	/^bool Value::isBool() const { return type_ == booleanValue; }$/;"	f	class:Json::Value
+isControlCharacter	example_code/jsoncpp.cpp	/^static inline bool isControlCharacter(char ch) { return ch > 0 && ch <= 0x1F; }$/;"	f	namespace:Json
+isControlCharacter	jsoncpp.cpp	/^static inline bool isControlCharacter(char ch) { return ch > 0 && ch <= 0x1F; }$/;"	f	namespace:Json
+isConvertibleTo	example_code/jsoncpp.cpp	/^bool Value::isConvertibleTo(ValueType other) const {$/;"	f	class:Json::Value
+isConvertibleTo	jsoncpp.cpp	/^bool Value::isConvertibleTo(ValueType other) const {$/;"	f	class:Json::Value
+isDouble	example_code/jsoncpp.cpp	/^bool Value::isDouble() const { return type_ == realValue || isIntegral(); }$/;"	f	class:Json::Value
+isDouble	jsoncpp.cpp	/^bool Value::isDouble() const { return type_ == realValue || isIntegral(); }$/;"	f	class:Json::Value
+isEqual	example_code/jsoncpp.cpp	/^bool ValueIteratorBase::isEqual(const SelfType& other) const {$/;"	f	class:Json::ValueIteratorBase
+isEqual	jsoncpp.cpp	/^bool ValueIteratorBase::isEqual(const SelfType& other) const {$/;"	f	class:Json::ValueIteratorBase
+isInt	example_code/jsoncpp.cpp	/^bool Value::isInt() const {$/;"	f	class:Json::Value
+isInt	jsoncpp.cpp	/^bool Value::isInt() const {$/;"	f	class:Json::Value
+isInt64	example_code/jsoncpp.cpp	/^bool Value::isInt64() const {$/;"	f	class:Json::Value
+isInt64	jsoncpp.cpp	/^bool Value::isInt64() const {$/;"	f	class:Json::Value
+isIntegral	example_code/jsoncpp.cpp	/^bool Value::isIntegral() const {$/;"	f	class:Json::Value
+isIntegral	jsoncpp.cpp	/^bool Value::isIntegral() const {$/;"	f	class:Json::Value
+isMember	example_code/jsoncpp.cpp	/^bool Value::isMember(char const* key) const$/;"	f	class:Json::Value
+isMember	example_code/jsoncpp.cpp	/^bool Value::isMember(char const* key, char const* end) const$/;"	f	class:Json::Value
+isMember	example_code/jsoncpp.cpp	/^bool Value::isMember(const CppTL::ConstString& key) const {$/;"	f	class:Json::Value
+isMember	example_code/jsoncpp.cpp	/^bool Value::isMember(std::string const& key) const$/;"	f	class:Json::Value
+isMember	jsoncpp.cpp	/^bool Value::isMember(char const* key) const$/;"	f	class:Json::Value
+isMember	jsoncpp.cpp	/^bool Value::isMember(char const* key, char const* end) const$/;"	f	class:Json::Value
+isMember	jsoncpp.cpp	/^bool Value::isMember(const CppTL::ConstString& key) const {$/;"	f	class:Json::Value
+isMember	jsoncpp.cpp	/^bool Value::isMember(std::string const& key) const$/;"	f	class:Json::Value
+isMultineArray	example_code/jsoncpp.cpp	/^bool BuiltStyledStreamWriter::isMultineArray(Value const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+isMultineArray	example_code/jsoncpp.cpp	/^bool StyledStreamWriter::isMultineArray(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+isMultineArray	example_code/jsoncpp.cpp	/^bool StyledWriter::isMultineArray(const Value& value) {$/;"	f	class:Json::StyledWriter
+isMultineArray	jsoncpp.cpp	/^bool BuiltStyledStreamWriter::isMultineArray(Value const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+isMultineArray	jsoncpp.cpp	/^bool StyledStreamWriter::isMultineArray(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+isMultineArray	jsoncpp.cpp	/^bool StyledWriter::isMultineArray(const Value& value) {$/;"	f	class:Json::StyledWriter
+isNull	example_code/jsoncpp.cpp	/^bool Value::isNull() const { return type_ == nullValue; }$/;"	f	class:Json::Value
+isNull	jsoncpp.cpp	/^bool Value::isNull() const { return type_ == nullValue; }$/;"	f	class:Json::Value
+isNull_	example_code/json/json.h	/^  bool isNull_;$/;"	m	class:Json::ValueIteratorBase
+isNumeric	example_code/jsoncpp.cpp	/^bool Value::isNumeric() const { return isIntegral() || isDouble(); }$/;"	f	class:Json::Value
+isNumeric	jsoncpp.cpp	/^bool Value::isNumeric() const { return isIntegral() || isDouble(); }$/;"	f	class:Json::Value
+isObject	example_code/jsoncpp.cpp	/^bool Value::isObject() const { return type_ == objectValue; }$/;"	f	class:Json::Value
+isObject	jsoncpp.cpp	/^bool Value::isObject() const { return type_ == objectValue; }$/;"	f	class:Json::Value
+isStaticString	example_code/jsoncpp.cpp	/^bool Value::CZString::isStaticString() const { return storage_.policy_ == noDuplication; }$/;"	f	class:Json::Value::CZString
+isStaticString	jsoncpp.cpp	/^bool Value::CZString::isStaticString() const { return storage_.policy_ == noDuplication; }$/;"	f	class:Json::Value::CZString
+isString	example_code/jsoncpp.cpp	/^bool Value::isString() const { return type_ == stringValue; }$/;"	f	class:Json::Value
+isString	jsoncpp.cpp	/^bool Value::isString() const { return type_ == stringValue; }$/;"	f	class:Json::Value
+isUInt	example_code/jsoncpp.cpp	/^bool Value::isUInt() const {$/;"	f	class:Json::Value
+isUInt	jsoncpp.cpp	/^bool Value::isUInt() const {$/;"	f	class:Json::Value
+isUInt64	example_code/jsoncpp.cpp	/^bool Value::isUInt64() const {$/;"	f	class:Json::Value
+isUInt64	jsoncpp.cpp	/^bool Value::isUInt64() const {$/;"	f	class:Json::Value
+isValidIndex	example_code/jsoncpp.cpp	/^bool Value::isValidIndex(ArrayIndex index) const { return index < size(); }$/;"	f	class:Json::Value
+isValidIndex	jsoncpp.cpp	/^bool Value::isValidIndex(ArrayIndex index) const { return index < size(); }$/;"	f	class:Json::Value
+isfinite	example_code/jsoncpp.cpp	3957;"	d	file:
+isfinite	example_code/jsoncpp.cpp	3974;"	d	file:
+isfinite	jsoncpp.cpp	3957;"	d	file:
+isfinite	jsoncpp.cpp	3974;"	d	file:
+iterator	example_code/json/json.h	/^  typedef ValueIterator iterator;$/;"	t	class:Json::Value
+iterator_category	example_code/json/json.h	/^  typedef std::bidirectional_iterator_tag iterator_category;$/;"	t	class:Json::ValueIteratorBase
+jobSchedule	helloworld.js	/^var jobSchedule = require('.\/build\/Release\/jobSchedule');$/;"	v
+json	example_code/build/gyp-mac-tool	/^import json$/;"	i
+kNull	example_code/jsoncpp.cpp	/^static const unsigned char ALIGNAS(8) kNull[sizeof(Value)] = { 0 };$/;"	m	namespace:Json	file:
+kNull	jsoncpp.cpp	/^static const unsigned char ALIGNAS(8) kNull[sizeof(Value)] = { 0 };$/;"	m	namespace:Json	file:
+kNullRef	example_code/jsoncpp.cpp	/^const unsigned char& kNullRef = kNull[0];$/;"	m	namespace:Json	file:
+kNullRef	jsoncpp.cpp	/^const unsigned char& kNullRef = kNull[0];$/;"	m	namespace:Json	file:
+key	example_code/jsoncpp.cpp	/^Value ValueIteratorBase::key() const {$/;"	f	class:Json::ValueIteratorBase
+key	jsoncpp.cpp	/^Value ValueIteratorBase::key() const {$/;"	f	class:Json::ValueIteratorBase
+key_	example_code/json/json.h	/^  std::string key_;$/;"	m	class:Json::PathArgument
+kindIndex	example_code/json/json.h	/^    kindIndex,$/;"	e	enum:Json::PathArgument::Kind
+kindKey	example_code/json/json.h	/^    kindKey$/;"	e	enum:Json::PathArgument::Kind
+kindNone	example_code/json/json.h	/^    kindNone = 0,$/;"	e	enum:Json::PathArgument::Kind
+kind_	example_code/json/json.h	/^  Kind kind_;$/;"	m	class:Json::PathArgument
+lastValueEnd_	example_code/json/json.h	/^  Location lastValueEnd_;$/;"	m	class:Json::Reader
+lastValueEnd_	example_code/jsoncpp.cpp	/^  Location lastValueEnd_;$/;"	m	class:Json::OurReader	file:
+lastValueEnd_	jsoncpp.cpp	/^  Location lastValueEnd_;$/;"	m	class:Json::OurReader	file:
+lastValue_	example_code/json/json.h	/^  Value* lastValue_;$/;"	m	class:Json::Reader
+lastValue_	example_code/jsoncpp.cpp	/^  Value* lastValue_;$/;"	m	class:Json::OurReader	file:
+lastValue_	jsoncpp.cpp	/^  Value* lastValue_;$/;"	m	class:Json::OurReader	file:
+length	example_code/jsoncpp.cpp	/^unsigned Value::CZString::length() const { return storage_.length_; }$/;"	f	class:Json::Value::CZString
+length	jsoncpp.cpp	/^unsigned Value::CZString::length() const { return storage_.length_; }$/;"	f	class:Json::Value::CZString
+length_	example_code/json/json.h	/^      unsigned length_: 30; \/\/ 1GB max$/;"	m	struct:Json::Value::CZString::StringStorage
+limit_	example_code/json/json.h	/^  size_t limit_;$/;"	m	class:Json::Value
+main	example_code/build/gyp-mac-tool	/^def main(args):$/;"	f
+main	example_code/jsoncppTest/test.cpp	/^int main()$/;"	f
+main	test.cpp	/^int main()$/;"	f
+make	example_code/jsoncpp.cpp	/^Value& Path::make(Value& root) const {$/;"	f	class:Json::Path
+make	jsoncpp.cpp	/^Value& Path::make(Value& root) const {$/;"	f	class:Json::Path
+makePath	example_code/jsoncpp.cpp	/^void Path::makePath(const std::string& path, const InArgs& in) {$/;"	f	class:Json::Path
+makePath	jsoncpp.cpp	/^void Path::makePath(const std::string& path, const InArgs& in) {$/;"	f	class:Json::Path
+map	jobSchedule.cpp	/^double ALG::map[MAXNLOCATIONS][MAXNLOCATIONS];$/;"	m	class:ALG	file:
+map	jobSchedule.h	/^	static double map[MAXNLOCATIONS][MAXNLOCATIONS];$/;"	m	class:ALG
+map_	example_code/json/json.h	/^    ObjectValues* map_;$/;"	m	union:Json::Value::ValueHolder
+match	example_code/jsoncpp.cpp	/^bool OurReader::match(Location pattern, int patternLength) {$/;"	f	class:Json::OurReader
+match	example_code/jsoncpp.cpp	/^bool Reader::match(Location pattern, int patternLength) {$/;"	f	class:Json::Reader
+match	jsoncpp.cpp	/^bool OurReader::match(Location pattern, int patternLength) {$/;"	f	class:Json::OurReader
+match	jsoncpp.cpp	/^bool Reader::match(Location pattern, int patternLength) {$/;"	f	class:Json::Reader
+maxInt	example_code/json/json.h	/^  static const Int maxInt;$/;"	m	class:Json::Value
+maxInt	example_code/jsoncpp.cpp	/^const Int Value::maxInt = Int(UInt(-1) \/ 2);$/;"	m	class:Json::Value	file:
+maxInt	jsoncpp.cpp	/^const Int Value::maxInt = Int(UInt(-1) \/ 2);$/;"	m	class:Json::Value	file:
+maxInt64	example_code/json/json.h	/^  static const Int64 maxInt64;$/;"	m	class:Json::Value
+maxInt64	example_code/jsoncpp.cpp	/^const Int64 Value::maxInt64 = Int64(UInt64(-1) \/ 2);$/;"	m	class:Json::Value	file:
+maxInt64	jsoncpp.cpp	/^const Int64 Value::maxInt64 = Int64(UInt64(-1) \/ 2);$/;"	m	class:Json::Value	file:
+maxLargestInt	example_code/json/json.h	/^  static const LargestInt maxLargestInt;$/;"	m	class:Json::Value
+maxLargestInt	example_code/jsoncpp.cpp	/^const LargestInt Value::maxLargestInt = LargestInt(LargestUInt(-1) \/ 2);$/;"	m	class:Json::Value	file:
+maxLargestInt	jsoncpp.cpp	/^const LargestInt Value::maxLargestInt = LargestInt(LargestUInt(-1) \/ 2);$/;"	m	class:Json::Value	file:
+maxLargestUInt	example_code/json/json.h	/^  static const LargestUInt maxLargestUInt;$/;"	m	class:Json::Value
+maxLargestUInt	example_code/jsoncpp.cpp	/^const LargestUInt Value::maxLargestUInt = LargestUInt(-1);$/;"	m	class:Json::Value	file:
+maxLargestUInt	jsoncpp.cpp	/^const LargestUInt Value::maxLargestUInt = LargestUInt(-1);$/;"	m	class:Json::Value	file:
+maxUInt	example_code/json/json.h	/^  static const UInt maxUInt;$/;"	m	class:Json::Value
+maxUInt	example_code/jsoncpp.cpp	/^const UInt Value::maxUInt = UInt(-1);$/;"	m	class:Json::Value	file:
+maxUInt	jsoncpp.cpp	/^const UInt Value::maxUInt = UInt(-1);$/;"	m	class:Json::Value	file:
+maxUInt64	example_code/json/json.h	/^  static const UInt64 maxUInt64;$/;"	m	class:Json::Value
+maxUInt64	example_code/jsoncpp.cpp	/^const UInt64 Value::maxUInt64 = UInt64(-1);$/;"	m	class:Json::Value	file:
+maxUInt64	jsoncpp.cpp	/^const UInt64 Value::maxUInt64 = UInt64(-1);$/;"	m	class:Json::Value	file:
+maxUInt64AsDouble	example_code/jsoncpp.cpp	/^static const double maxUInt64AsDouble = 18446744073709551615.0;$/;"	m	namespace:Json	file:
+maxUInt64AsDouble	jsoncpp.cpp	/^static const double maxUInt64AsDouble = 18446744073709551615.0;$/;"	m	namespace:Json	file:
+memberName	example_code/jsoncpp.cpp	/^char const* ValueIteratorBase::memberName() const {$/;"	f	class:Json::ValueIteratorBase
+memberName	example_code/jsoncpp.cpp	/^char const* ValueIteratorBase::memberName(char const** end) const {$/;"	f	class:Json::ValueIteratorBase
+memberName	jsoncpp.cpp	/^char const* ValueIteratorBase::memberName() const {$/;"	f	class:Json::ValueIteratorBase
+memberName	jsoncpp.cpp	/^char const* ValueIteratorBase::memberName(char const** end) const {$/;"	f	class:Json::ValueIteratorBase
+message	example_code/json/json.h	/^    std::string message;$/;"	m	struct:Json::Reader::StructuredError
+message	example_code/jsoncpp.cpp	/^    std::string message;$/;"	m	struct:Json::OurReader::StructuredError	file:
+message	jsoncpp.cpp	/^    std::string message;$/;"	m	struct:Json::OurReader::StructuredError	file:
+message_	example_code/json/json.h	/^    std::string message_;$/;"	m	class:Json::Reader::ErrorInfo
+message_	example_code/jsoncpp.cpp	/^    std::string message_;$/;"	m	class:Json::OurReader::ErrorInfo	file:
+message_	jsoncpp.cpp	/^    std::string message_;$/;"	m	class:Json::OurReader::ErrorInfo	file:
+minInt	example_code/json/json.h	/^  static const Int minInt;$/;"	m	class:Json::Value
+minInt	example_code/jsoncpp.cpp	/^const Int Value::minInt = Int(~(UInt(-1) \/ 2));$/;"	m	class:Json::Value	file:
+minInt	jsoncpp.cpp	/^const Int Value::minInt = Int(~(UInt(-1) \/ 2));$/;"	m	class:Json::Value	file:
+minInt64	example_code/json/json.h	/^  static const Int64 minInt64;$/;"	m	class:Json::Value
+minInt64	example_code/jsoncpp.cpp	/^const Int64 Value::minInt64 = Int64(~(UInt64(-1) \/ 2));$/;"	m	class:Json::Value	file:
+minInt64	jsoncpp.cpp	/^const Int64 Value::minInt64 = Int64(~(UInt64(-1) \/ 2));$/;"	m	class:Json::Value	file:
+minLargestInt	example_code/json/json.h	/^  static const LargestInt minLargestInt;$/;"	m	class:Json::Value
+minLargestInt	example_code/jsoncpp.cpp	/^const LargestInt Value::minLargestInt = LargestInt(~(LargestUInt(-1) \/ 2));$/;"	m	class:Json::Value	file:
+minLargestInt	jsoncpp.cpp	/^const LargestInt Value::minLargestInt = LargestInt(~(LargestUInt(-1) \/ 2));$/;"	m	class:Json::Value	file:
+msg_	example_code/jsoncpp.cpp	/^  std::string const msg_;$/;"	m	class:Json::Exception::std	file:
+msg_	jsoncpp.cpp	/^  std::string const msg_;$/;"	m	class:Json::Exception::std	file:
+name	example_code/jsoncpp.cpp	/^std::string ValueIteratorBase::name() const {$/;"	f	class:Json::ValueIteratorBase
+name	jsoncpp.cpp	/^std::string ValueIteratorBase::name() const {$/;"	f	class:Json::ValueIteratorBase
+newCharReader	example_code/jsoncpp.cpp	/^CharReader* CharReaderBuilder::newCharReader() const$/;"	f	class:Json::CharReaderBuilder
+newCharReader	jsoncpp.cpp	/^CharReader* CharReaderBuilder::newCharReader() const$/;"	f	class:Json::CharReaderBuilder
+newStreamWriter	example_code/jsoncpp.cpp	/^StreamWriter* StreamWriterBuilder::newStreamWriter() const$/;"	f	class:Json::StreamWriterBuilder
+newStreamWriter	jsoncpp.cpp	/^StreamWriter* StreamWriterBuilder::newStreamWriter() const$/;"	f	class:Json::StreamWriterBuilder
+noDuplication	example_code/json/json.h	/^      noDuplication = 0,$/;"	e	enum:Json::Value::CZString::DuplicationPolicy
+nodes_	example_code/json/json.h	/^  Nodes nodes_;$/;"	m	class:Json::Reader
+nodes_	example_code/jsoncpp.cpp	/^  Nodes nodes_;$/;"	m	class:Json::OurReader	file:
+nodes_	jsoncpp.cpp	/^  Nodes nodes_;$/;"	m	class:Json::OurReader	file:
+normalizeEOL	example_code/jsoncpp.cpp	/^static std::string normalizeEOL(Reader::Location begin, Reader::Location end) {$/;"	f	namespace:Json
+normalizeEOL	jsoncpp.cpp	/^static std::string normalizeEOL(Reader::Location begin, Reader::Location end) {$/;"	f	namespace:Json
+null	example_code/json/json.h	/^  static const Value& null;  \/\/\/< We regret this reference to a global instance; prefer the simpler Value().$/;"	m	class:Json::Value
+null	example_code/jsoncpp.cpp	/^const Value& Value::null = reinterpret_cast<const Value&>(kNullRef);$/;"	m	class:Json::Value	file:
+null	jsoncpp.cpp	/^const Value& Value::null = reinterpret_cast<const Value&>(kNullRef);$/;"	m	class:Json::Value	file:
+nullRef	example_code/json/json.h	/^  static const Value& nullRef;  \/\/\/< just a kludge for binary-compatibility; same as null$/;"	m	class:Json::Value
+nullRef	example_code/jsoncpp.cpp	/^const Value& Value::nullRef = null;$/;"	m	class:Json::Value	file:
+nullRef	jsoncpp.cpp	/^const Value& Value::nullRef = null;$/;"	m	class:Json::Value	file:
+nullSymbol_	example_code/jsoncpp.cpp	/^  std::string nullSymbol_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+nullSymbol_	jsoncpp.cpp	/^  std::string nullSymbol_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+nullValue	example_code/json/json.h	/^  nullValue = 0, \/\/\/< 'null' value$/;"	e	enum:Json::ValueType
+numberOfCommentPlacement	example_code/json/json.h	/^  numberOfCommentPlacement$/;"	e	enum:Json::CommentPlacement
+obj	example_code/build/Makefile	/^obj := $(builddir)\/obj$/;"	m
+objectValue	example_code/json/json.h	/^  objectValue    \/\/\/< object value (collection of name\/value pairs).$/;"	e	enum:Json::ValueType
+offTime	jobSchedule.h	/^	CTime	offTime; \/\/ when he gets off work$/;"	m	class:CDriver
+offset_limit	example_code/json/json.h	/^    size_t offset_limit;$/;"	m	struct:Json::Reader::StructuredError
+offset_limit	example_code/jsoncpp.cpp	/^    size_t offset_limit;$/;"	m	struct:Json::OurReader::StructuredError	file:
+offset_limit	jsoncpp.cpp	/^    size_t offset_limit;$/;"	m	struct:Json::OurReader::StructuredError	file:
+offset_start	example_code/json/json.h	/^    size_t offset_start;$/;"	m	struct:Json::Reader::StructuredError
+offset_start	example_code/jsoncpp.cpp	/^    size_t offset_start;$/;"	m	struct:Json::OurReader::StructuredError	file:
+offset_start	jsoncpp.cpp	/^    size_t offset_start;$/;"	m	struct:Json::OurReader::StructuredError	file:
+omitEndingLineFeed	example_code/jsoncpp.cpp	/^void FastWriter::omitEndingLineFeed() { omitEndingLineFeed_ = true; }$/;"	f	class:Json::FastWriter
+omitEndingLineFeed	jsoncpp.cpp	/^void FastWriter::omitEndingLineFeed() { omitEndingLineFeed_ = true; }$/;"	f	class:Json::FastWriter
+omitEndingLineFeed_	example_code/json/json.h	/^  bool omitEndingLineFeed_;$/;"	m	class:Json::FastWriter
+operator !	example_code/jsoncpp.cpp	/^bool Value::operator!() const { return isNull(); }$/;"	f	class:Json::Value
+operator !	jsoncpp.cpp	/^bool Value::operator!() const { return isNull(); }$/;"	f	class:Json::Value
+operator !=	example_code/json/json.h	/^  bool operator!=(const SelfType& other) const { return !isEqual(other); }$/;"	f	class:Json::ValueIteratorBase
+operator !=	example_code/jsoncpp.cpp	/^bool Value::operator!=(const Value& other) const { return !(*this == other); }$/;"	f	class:Json::Value
+operator !=	jsoncpp.cpp	/^bool Value::operator!=(const Value& other) const { return !(*this == other); }$/;"	f	class:Json::Value
+operator *	example_code/json/json.h	/^  reference operator*() const { return deref(); }$/;"	f	class:Json::ValueConstIterator
+operator *	example_code/json/json.h	/^  reference operator*() const { return deref(); }$/;"	f	class:Json::ValueIterator
+operator ++	example_code/json/json.h	/^  SelfType operator++(int) {$/;"	f	class:Json::ValueConstIterator
+operator ++	example_code/json/json.h	/^  SelfType operator++(int) {$/;"	f	class:Json::ValueIterator
+operator ++	example_code/json/json.h	/^  SelfType& operator++() {$/;"	f	class:Json::ValueConstIterator
+operator ++	example_code/json/json.h	/^  SelfType& operator++() {$/;"	f	class:Json::ValueIterator
+operator -	example_code/json/json.h	/^  difference_type operator-(const SelfType& other) const {$/;"	f	class:Json::ValueIteratorBase
+operator --	example_code/json/json.h	/^  SelfType operator--(int) {$/;"	f	class:Json::ValueConstIterator
+operator --	example_code/json/json.h	/^  SelfType operator--(int) {$/;"	f	class:Json::ValueIterator
+operator --	example_code/json/json.h	/^  SelfType& operator--() {$/;"	f	class:Json::ValueConstIterator
+operator --	example_code/json/json.h	/^  SelfType& operator--() {$/;"	f	class:Json::ValueIterator
+operator ->	example_code/json/json.h	/^  pointer operator->() const { return &deref(); }$/;"	f	class:Json::ValueConstIterator
+operator ->	example_code/json/json.h	/^  pointer operator->() const { return &deref(); }$/;"	f	class:Json::ValueIterator
+operator <	example_code/jsoncpp.cpp	/^bool Value::CZString::operator<(const CZString& other) const {$/;"	f	class:Json::Value::CZString
+operator <	example_code/jsoncpp.cpp	/^bool Value::operator<(const Value& other) const {$/;"	f	class:Json::Value
+operator <	jsoncpp.cpp	/^bool Value::CZString::operator<(const CZString& other) const {$/;"	f	class:Json::Value::CZString
+operator <	jsoncpp.cpp	/^bool Value::operator<(const Value& other) const {$/;"	f	class:Json::Value
+operator <<	example_code/jsoncpp.cpp	/^std::ostream& operator<<(std::ostream& sout, Value const& root) {$/;"	f	namespace:Json
+operator <<	jsoncpp.cpp	/^std::ostream& operator<<(std::ostream& sout, Value const& root) {$/;"	f	namespace:Json
+operator <=	example_code/jsoncpp.cpp	/^bool Value::operator<=(const Value& other) const { return !(other < *this); }$/;"	f	class:Json::Value
+operator <=	jsoncpp.cpp	/^bool Value::operator<=(const Value& other) const { return !(other < *this); }$/;"	f	class:Json::Value
+operator =	example_code/jsoncpp.cpp	/^Value& Value::operator=(Value other) {$/;"	f	class:Json::Value
+operator =	example_code/jsoncpp.cpp	/^Value::CZString& Value::CZString::operator=(CZString other) {$/;"	f	class:Json::Value::CZString
+operator =	example_code/jsoncpp.cpp	/^ValueIterator& ValueIterator::operator=(const SelfType& other) {$/;"	f	class:Json::ValueIterator
+operator =	example_code/jsoncpp.cpp	/^operator=(const ValueIteratorBase& other) {$/;"	f	class:Json::ValueConstIterator
+operator =	jsoncpp.cpp	/^Value& Value::operator=(Value other) {$/;"	f	class:Json::Value
+operator =	jsoncpp.cpp	/^Value::CZString& Value::CZString::operator=(CZString other) {$/;"	f	class:Json::Value::CZString
+operator =	jsoncpp.cpp	/^ValueIterator& ValueIterator::operator=(const SelfType& other) {$/;"	f	class:Json::ValueIterator
+operator =	jsoncpp.cpp	/^operator=(const ValueIteratorBase& other) {$/;"	f	class:Json::ValueConstIterator
+operator ==	example_code/json/json.h	/^  bool operator==(const SelfType& other) const { return isEqual(other); }$/;"	f	class:Json::ValueIteratorBase
+operator ==	example_code/jsoncpp.cpp	/^bool Value::CZString::operator==(const CZString& other) const {$/;"	f	class:Json::Value::CZString
+operator ==	example_code/jsoncpp.cpp	/^bool Value::operator==(const Value& other) const {$/;"	f	class:Json::Value
+operator ==	jsoncpp.cpp	/^bool Value::CZString::operator==(const CZString& other) const {$/;"	f	class:Json::Value::CZString
+operator ==	jsoncpp.cpp	/^bool Value::operator==(const Value& other) const {$/;"	f	class:Json::Value
+operator >	example_code/jsoncpp.cpp	/^bool Value::operator>(const Value& other) const { return other < *this; }$/;"	f	class:Json::Value
+operator >	jsoncpp.cpp	/^bool Value::operator>(const Value& other) const { return other < *this; }$/;"	f	class:Json::Value
+operator >=	example_code/jsoncpp.cpp	/^bool Value::operator>=(const Value& other) const { return !(*this < other); }$/;"	f	class:Json::Value
+operator >=	jsoncpp.cpp	/^bool Value::operator>=(const Value& other) const { return !(*this < other); }$/;"	f	class:Json::Value
+operator >>	example_code/jsoncpp.cpp	/^std::istream& operator>>(std::istream& sin, Value& root) {$/;"	f	namespace:Json
+operator >>	jsoncpp.cpp	/^std::istream& operator>>(std::istream& sin, Value& root) {$/;"	f	namespace:Json
+operator []	example_code/jsoncpp.cpp	/^Value const& Value::operator[](CppTL::ConstString const& key) const$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value const& Value::operator[](std::string const& key) const$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value& CharReaderBuilder::operator[](std::string key)$/;"	f	class:Json::CharReaderBuilder
+operator []	example_code/jsoncpp.cpp	/^Value& StreamWriterBuilder::operator[](std::string key)$/;"	f	class:Json::StreamWriterBuilder
+operator []	example_code/jsoncpp.cpp	/^Value& Value::operator[](ArrayIndex index) {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value& Value::operator[](const CppTL::ConstString& key) {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value& Value::operator[](const StaticString& key) {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value& Value::operator[](const char* key) {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value& Value::operator[](const std::string& key) {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^Value& Value::operator[](int index) {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^const Value& Value::operator[](ArrayIndex index) const {$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^const Value& Value::operator[](const char* key) const$/;"	f	class:Json::Value
+operator []	example_code/jsoncpp.cpp	/^const Value& Value::operator[](int index) const {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value const& Value::operator[](CppTL::ConstString const& key) const$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value const& Value::operator[](std::string const& key) const$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value& CharReaderBuilder::operator[](std::string key)$/;"	f	class:Json::CharReaderBuilder
+operator []	jsoncpp.cpp	/^Value& StreamWriterBuilder::operator[](std::string key)$/;"	f	class:Json::StreamWriterBuilder
+operator []	jsoncpp.cpp	/^Value& Value::operator[](ArrayIndex index) {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value& Value::operator[](const CppTL::ConstString& key) {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value& Value::operator[](const StaticString& key) {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value& Value::operator[](const char* key) {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value& Value::operator[](const std::string& key) {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^Value& Value::operator[](int index) {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^const Value& Value::operator[](ArrayIndex index) const {$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^const Value& Value::operator[](const char* key) const$/;"	f	class:Json::Value
+operator []	jsoncpp.cpp	/^const Value& Value::operator[](int index) const {$/;"	f	class:Json::Value
+operator const char*	example_code/json/json.h	/^  operator const char*() const { return c_str_; }$/;"	f	class:Json::StaticString
+os	example_code/build/gyp-mac-tool	/^import os$/;"	i
+parse	example_code/jsoncpp.cpp	/^  virtual bool parse($/;"	f	class:Json::OurCharReader
+parse	example_code/jsoncpp.cpp	/^Reader::parse(const std::string& document, Value& root, bool collectComments) {$/;"	f	class:Json::Reader
+parse	example_code/jsoncpp.cpp	/^bool OurReader::parse(const char* beginDoc,$/;"	f	class:Json::OurReader
+parse	example_code/jsoncpp.cpp	/^bool Reader::parse(const char* beginDoc,$/;"	f	class:Json::Reader
+parse	example_code/jsoncpp.cpp	/^bool Reader::parse(std::istream& sin, Value& root, bool collectComments) {$/;"	f	class:Json::Reader
+parse	jsoncpp.cpp	/^  virtual bool parse($/;"	f	class:Json::OurCharReader
+parse	jsoncpp.cpp	/^Reader::parse(const std::string& document, Value& root, bool collectComments) {$/;"	f	class:Json::Reader
+parse	jsoncpp.cpp	/^bool OurReader::parse(const char* beginDoc,$/;"	f	class:Json::OurReader
+parse	jsoncpp.cpp	/^bool Reader::parse(const char* beginDoc,$/;"	f	class:Json::Reader
+parse	jsoncpp.cpp	/^bool Reader::parse(std::istream& sin, Value& root, bool collectComments) {$/;"	f	class:Json::Reader
+parseFromStream	example_code/jsoncpp.cpp	/^bool parseFromStream($/;"	f	namespace:Json
+parseFromStream	jsoncpp.cpp	/^bool parseFromStream($/;"	f	namespace:Json
+parseInput	example_code/hello.cc	/^void parseInput(const char * cstr)$/;"	f
+parseInput	wrapper.cpp	/^bool parseInput(const char * cstr, vector<CDriver> & drivers, vector<CTask> & tasks, vector<CPath> & paths)$/;"	f
+plistlib	example_code/build/gyp-mac-tool	/^import plistlib$/;"	i
+pointer	example_code/json/json.h	/^  typedef Value* pointer;$/;"	t	class:Json::ValueIterator
+pointer	example_code/json/json.h	/^  typedef const Value* pointer;$/;"	t	class:Json::ValueConstIterator
+policy_	example_code/json/json.h	/^      unsigned policy_: 2;$/;"	m	struct:Json::Value::CZString::StringStorage
+preProcess	jobSchedule.cpp	/^bool ALG::preProcess(vector<CDriver> & drivers, vector<CTask> & tasks, vector<CPath> & paths, int &nLocations)$/;"	f	class:ALG
+prepareOutput	example_code/hello.cc	/^std::string prepareOutput()$/;"	f
+prepareOutput	wrapper.cpp	/^std::string prepareOutput(vector<CScheduleItem> &schedule) $/;"	f
+prereq_changed	example_code/build/Makefile	/^prereq_changed = $(filter-out FORCE_DO_CMD,$(filter-out $|,$?))$/;"	m
+prevTaskID	jobSchedule.h	/^	CID	prevTaskID; \/\/ this task can only start after prevTaskID, and be carried out by the same driver$/;"	m	class:CTask
+printSchedule	test.cpp	/^void printSchedule(vector<CScheduleItem> &schedule)$/;"	f
+pushError	example_code/jsoncpp.cpp	/^bool OurReader::pushError(const Value& value, const std::string& message) {$/;"	f	class:Json::OurReader
+pushError	example_code/jsoncpp.cpp	/^bool OurReader::pushError(const Value& value, const std::string& message, const Value& extra) {$/;"	f	class:Json::OurReader
+pushError	example_code/jsoncpp.cpp	/^bool Reader::pushError(const Value& value, const std::string& message) {$/;"	f	class:Json::Reader
+pushError	example_code/jsoncpp.cpp	/^bool Reader::pushError(const Value& value, const std::string& message, const Value& extra) {$/;"	f	class:Json::Reader
+pushError	jsoncpp.cpp	/^bool OurReader::pushError(const Value& value, const std::string& message) {$/;"	f	class:Json::OurReader
+pushError	jsoncpp.cpp	/^bool OurReader::pushError(const Value& value, const std::string& message, const Value& extra) {$/;"	f	class:Json::OurReader
+pushError	jsoncpp.cpp	/^bool Reader::pushError(const Value& value, const std::string& message) {$/;"	f	class:Json::Reader
+pushError	jsoncpp.cpp	/^bool Reader::pushError(const Value& value, const std::string& message, const Value& extra) {$/;"	f	class:Json::Reader
+pushValue	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::pushValue(std::string const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+pushValue	example_code/jsoncpp.cpp	/^void StyledStreamWriter::pushValue(const std::string& value) {$/;"	f	class:Json::StyledStreamWriter
+pushValue	example_code/jsoncpp.cpp	/^void StyledWriter::pushValue(const std::string& value) {$/;"	f	class:Json::StyledWriter
+pushValue	jsoncpp.cpp	/^void BuiltStyledStreamWriter::pushValue(std::string const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+pushValue	jsoncpp.cpp	/^void StyledStreamWriter::pushValue(const std::string& value) {$/;"	f	class:Json::StyledStreamWriter
+pushValue	jsoncpp.cpp	/^void StyledWriter::pushValue(const std::string& value) {$/;"	f	class:Json::StyledWriter
+quiet	example_code/build/Makefile	/^  quiet=$/;"	m
+quiet	example_code/build/Makefile	/^  quiet=quiet_$/;"	m
+quiet_cmd_alink	example_code/build/Makefile	/^quiet_cmd_alink = LIBTOOL-STATIC $@$/;"	m
+quiet_cmd_cc	example_code/build/Makefile	/^quiet_cmd_cc = CC($(TOOLSET)) $@$/;"	m
+quiet_cmd_copy	example_code/build/Makefile	/^quiet_cmd_copy = COPY $@$/;"	m
+quiet_cmd_cxx	example_code/build/Makefile	/^quiet_cmd_cxx = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_infoplist	example_code/build/Makefile	/^quiet_cmd_infoplist = INFOPLIST $@$/;"	m
+quiet_cmd_link	example_code/build/Makefile	/^quiet_cmd_link = LINK($(TOOLSET)) $@$/;"	m
+quiet_cmd_mac_package_framework	example_code/build/Makefile	/^quiet_cmd_mac_package_framework = PACKAGE FRAMEWORK $@$/;"	m
+quiet_cmd_mac_tool	example_code/build/Makefile	/^quiet_cmd_mac_tool = MACTOOL $(4) $<$/;"	m
+quiet_cmd_objc	example_code/build/Makefile	/^quiet_cmd_objc = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_objcxx	example_code/build/Makefile	/^quiet_cmd_objcxx = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_c	example_code/build/Makefile	/^quiet_cmd_pch_c = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_cc	example_code/build/Makefile	/^quiet_cmd_pch_cc = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_m	example_code/build/Makefile	/^quiet_cmd_pch_m = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_pch_mm	example_code/build/Makefile	/^quiet_cmd_pch_mm = CXX($(TOOLSET)) $@$/;"	m
+quiet_cmd_regen_makefile	example_code/build/Makefile	/^quiet_cmd_regen_makefile = ACTION Regenerating $@$/;"	m
+quiet_cmd_solink	example_code/build/Makefile	/^quiet_cmd_solink = SOLINK($(TOOLSET)) $@$/;"	m
+quiet_cmd_solink_module	example_code/build/Makefile	/^quiet_cmd_solink_module = SOLINK_MODULE($(TOOLSET)) $@$/;"	m
+quiet_cmd_touch	example_code/build/Makefile	/^quiet_cmd_touch = TOUCH $@$/;"	m
+re	example_code/build/gyp-mac-tool	/^import re$/;"	i
+readArray	example_code/jsoncpp.cpp	/^bool OurReader::readArray(Token& tokenStart) {$/;"	f	class:Json::OurReader
+readArray	example_code/jsoncpp.cpp	/^bool Reader::readArray(Token& tokenStart) {$/;"	f	class:Json::Reader
+readArray	jsoncpp.cpp	/^bool OurReader::readArray(Token& tokenStart) {$/;"	f	class:Json::OurReader
+readArray	jsoncpp.cpp	/^bool Reader::readArray(Token& tokenStart) {$/;"	f	class:Json::Reader
+readCStyleComment	example_code/jsoncpp.cpp	/^bool OurReader::readCStyleComment() {$/;"	f	class:Json::OurReader
+readCStyleComment	example_code/jsoncpp.cpp	/^bool Reader::readCStyleComment() {$/;"	f	class:Json::Reader
+readCStyleComment	jsoncpp.cpp	/^bool OurReader::readCStyleComment() {$/;"	f	class:Json::OurReader
+readCStyleComment	jsoncpp.cpp	/^bool Reader::readCStyleComment() {$/;"	f	class:Json::Reader
+readComment	example_code/jsoncpp.cpp	/^bool OurReader::readComment() {$/;"	f	class:Json::OurReader
+readComment	example_code/jsoncpp.cpp	/^bool Reader::readComment() {$/;"	f	class:Json::Reader
+readComment	jsoncpp.cpp	/^bool OurReader::readComment() {$/;"	f	class:Json::OurReader
+readComment	jsoncpp.cpp	/^bool Reader::readComment() {$/;"	f	class:Json::Reader
+readCppStyleComment	example_code/jsoncpp.cpp	/^bool OurReader::readCppStyleComment() {$/;"	f	class:Json::OurReader
+readCppStyleComment	example_code/jsoncpp.cpp	/^bool Reader::readCppStyleComment() {$/;"	f	class:Json::Reader
+readCppStyleComment	jsoncpp.cpp	/^bool OurReader::readCppStyleComment() {$/;"	f	class:Json::OurReader
+readCppStyleComment	jsoncpp.cpp	/^bool Reader::readCppStyleComment() {$/;"	f	class:Json::Reader
+readNumber	example_code/jsoncpp.cpp	/^void OurReader::readNumber() {$/;"	f	class:Json::OurReader
+readNumber	example_code/jsoncpp.cpp	/^void Reader::readNumber() {$/;"	f	class:Json::Reader
+readNumber	jsoncpp.cpp	/^void OurReader::readNumber() {$/;"	f	class:Json::OurReader
+readNumber	jsoncpp.cpp	/^void Reader::readNumber() {$/;"	f	class:Json::Reader
+readObject	example_code/jsoncpp.cpp	/^bool OurReader::readObject(Token& tokenStart) {$/;"	f	class:Json::OurReader
+readObject	example_code/jsoncpp.cpp	/^bool Reader::readObject(Token& tokenStart) {$/;"	f	class:Json::Reader
+readObject	jsoncpp.cpp	/^bool OurReader::readObject(Token& tokenStart) {$/;"	f	class:Json::OurReader
+readObject	jsoncpp.cpp	/^bool Reader::readObject(Token& tokenStart) {$/;"	f	class:Json::Reader
+readString	example_code/jsoncpp.cpp	/^bool OurReader::readString() {$/;"	f	class:Json::OurReader
+readString	example_code/jsoncpp.cpp	/^bool Reader::readString() {$/;"	f	class:Json::Reader
+readString	jsoncpp.cpp	/^bool OurReader::readString() {$/;"	f	class:Json::OurReader
+readString	jsoncpp.cpp	/^bool Reader::readString() {$/;"	f	class:Json::Reader
+readStringSingleQuote	example_code/jsoncpp.cpp	/^bool OurReader::readStringSingleQuote() {$/;"	f	class:Json::OurReader
+readStringSingleQuote	jsoncpp.cpp	/^bool OurReader::readStringSingleQuote() {$/;"	f	class:Json::OurReader
+readToken	example_code/jsoncpp.cpp	/^bool OurReader::readToken(Token& token) {$/;"	f	class:Json::OurReader
+readToken	example_code/jsoncpp.cpp	/^bool Reader::readToken(Token& token) {$/;"	f	class:Json::Reader
+readToken	jsoncpp.cpp	/^bool OurReader::readToken(Token& token) {$/;"	f	class:Json::OurReader
+readToken	jsoncpp.cpp	/^bool Reader::readToken(Token& token) {$/;"	f	class:Json::Reader
+readValue	example_code/jsoncpp.cpp	/^bool OurReader::readValue() {$/;"	f	class:Json::OurReader
+readValue	example_code/jsoncpp.cpp	/^bool Reader::readValue() {$/;"	f	class:Json::Reader
+readValue	jsoncpp.cpp	/^bool OurReader::readValue() {$/;"	f	class:Json::OurReader
+readValue	jsoncpp.cpp	/^bool Reader::readValue() {$/;"	f	class:Json::Reader
+reader_	example_code/jsoncpp.cpp	/^  OurReader reader_;$/;"	m	class:Json::OurCharReader	file:
+reader_	jsoncpp.cpp	/^  OurReader reader_;$/;"	m	class:Json::OurCharReader	file:
+readyTime	jobSchedule.h	/^	CTime	readyTime;  \/\/ set this to positive values if the driver has to wait when he arrives at the restaurant$/;"	m	class:CTask
+realValue	example_code/json/json.h	/^  realValue,     \/\/\/< double value$/;"	e	enum:Json::ValueType
+real_	example_code/json/json.h	/^    double real_;$/;"	m	union:Json::Value::ValueHolder
+recoverFromError	example_code/jsoncpp.cpp	/^bool OurReader::recoverFromError(TokenType skipUntilToken) {$/;"	f	class:Json::OurReader
+recoverFromError	example_code/jsoncpp.cpp	/^bool Reader::recoverFromError(TokenType skipUntilToken) {$/;"	f	class:Json::Reader
+recoverFromError	jsoncpp.cpp	/^bool OurReader::recoverFromError(TokenType skipUntilToken) {$/;"	f	class:Json::OurReader
+recoverFromError	jsoncpp.cpp	/^bool Reader::recoverFromError(TokenType skipUntilToken) {$/;"	f	class:Json::Reader
+reference	example_code/json/json.h	/^  typedef Value& reference;$/;"	t	class:Json::ValueIterator
+reference	example_code/json/json.h	/^  typedef const Value& reference;$/;"	t	class:Json::ValueConstIterator
+rejectDupKeys_	example_code/jsoncpp.cpp	/^  bool rejectDupKeys_;$/;"	m	class:Json::OurFeatures	file:
+rejectDupKeys_	jsoncpp.cpp	/^  bool rejectDupKeys_;$/;"	m	class:Json::OurFeatures	file:
+releaseStringValue	example_code/jsoncpp.cpp	/^static inline void releaseStringValue(char* value) { free(value); }$/;"	f	namespace:Json
+releaseStringValue	jsoncpp.cpp	/^static inline void releaseStringValue(char* value) { free(value); }$/;"	f	namespace:Json
+removeIndex	example_code/jsoncpp.cpp	/^bool Value::removeIndex(ArrayIndex index, Value* removed) {$/;"	f	class:Json::Value
+removeIndex	jsoncpp.cpp	/^bool Value::removeIndex(ArrayIndex index, Value* removed) {$/;"	f	class:Json::Value
+removeMember	example_code/jsoncpp.cpp	/^Value Value::removeMember(const char* key)$/;"	f	class:Json::Value
+removeMember	example_code/jsoncpp.cpp	/^Value Value::removeMember(const std::string& key)$/;"	f	class:Json::Value
+removeMember	example_code/jsoncpp.cpp	/^bool Value::removeMember(const char* key, Value* removed)$/;"	f	class:Json::Value
+removeMember	example_code/jsoncpp.cpp	/^bool Value::removeMember(const char* key, const char* end, Value* removed)$/;"	f	class:Json::Value
+removeMember	example_code/jsoncpp.cpp	/^bool Value::removeMember(std::string const& key, Value* removed)$/;"	f	class:Json::Value
+removeMember	jsoncpp.cpp	/^Value Value::removeMember(const char* key)$/;"	f	class:Json::Value
+removeMember	jsoncpp.cpp	/^Value Value::removeMember(const std::string& key)$/;"	f	class:Json::Value
+removeMember	jsoncpp.cpp	/^bool Value::removeMember(const char* key, Value* removed)$/;"	f	class:Json::Value
+removeMember	jsoncpp.cpp	/^bool Value::removeMember(const char* key, const char* end, Value* removed)$/;"	f	class:Json::Value
+removeMember	jsoncpp.cpp	/^bool Value::removeMember(std::string const& key, Value* removed)$/;"	f	class:Json::Value
+replace_spaces	example_code/build/Makefile	/^replace_spaces = $(subst $(space),?,$1)$/;"	m
+resize	example_code/jsoncpp.cpp	/^void Value::resize(ArrayIndex newSize) {$/;"	f	class:Json::Value
+resize	jsoncpp.cpp	/^void Value::resize(ArrayIndex newSize) {$/;"	f	class:Json::Value
+resolve	example_code/jsoncpp.cpp	/^Value Path::resolve(const Value& root, const Value& defaultValue) const {$/;"	f	class:Json::Path
+resolve	example_code/jsoncpp.cpp	/^const Value& Path::resolve(const Value& root) const {$/;"	f	class:Json::Path
+resolve	jsoncpp.cpp	/^Value Path::resolve(const Value& root, const Value& defaultValue) const {$/;"	f	class:Json::Path
+resolve	jsoncpp.cpp	/^const Value& Path::resolve(const Value& root) const {$/;"	f	class:Json::Path
+resolveReference	example_code/jsoncpp.cpp	/^Value& Value::resolveReference(char const* key, char const* end)$/;"	f	class:Json::Value
+resolveReference	example_code/jsoncpp.cpp	/^Value& Value::resolveReference(const char* key) {$/;"	f	class:Json::Value
+resolveReference	jsoncpp.cpp	/^Value& Value::resolveReference(char const* key, char const* end)$/;"	f	class:Json::Value
+resolveReference	jsoncpp.cpp	/^Value& Value::resolveReference(const char* key) {$/;"	f	class:Json::Value
+rightMargin_	example_code/json/json.h	/^  int rightMargin_;$/;"	m	class:Json::StyledStreamWriter
+rightMargin_	example_code/json/json.h	/^  int rightMargin_;$/;"	m	class:Json::StyledWriter
+rightMargin_	example_code/jsoncpp.cpp	/^  int rightMargin_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+rightMargin_	jsoncpp.cpp	/^  int rightMargin_;$/;"	m	struct:Json::BuiltStyledStreamWriter	file:
+select_next_task	jobSchedule.cpp	/^bool ALG::select_next_task(CDriver & driver, int iDriver, vector<CTask> & tasks, int & iSelectedTask)$/;"	f	class:ALG
+setComment	example_code/jsoncpp.cpp	/^void Value::CommentInfo::setComment(const char* text, size_t len) {$/;"	f	class:Json::Value::CommentInfo
+setComment	example_code/jsoncpp.cpp	/^void Value::setComment(const char* comment, CommentPlacement placement) {$/;"	f	class:Json::Value
+setComment	example_code/jsoncpp.cpp	/^void Value::setComment(const char* comment, size_t len, CommentPlacement placement) {$/;"	f	class:Json::Value
+setComment	example_code/jsoncpp.cpp	/^void Value::setComment(const std::string& comment, CommentPlacement placement) {$/;"	f	class:Json::Value
+setComment	jsoncpp.cpp	/^void Value::CommentInfo::setComment(const char* text, size_t len) {$/;"	f	class:Json::Value::CommentInfo
+setComment	jsoncpp.cpp	/^void Value::setComment(const char* comment, CommentPlacement placement) {$/;"	f	class:Json::Value
+setComment	jsoncpp.cpp	/^void Value::setComment(const char* comment, size_t len, CommentPlacement placement) {$/;"	f	class:Json::Value
+setComment	jsoncpp.cpp	/^void Value::setComment(const std::string& comment, CommentPlacement placement) {$/;"	f	class:Json::Value
+setDefaults	example_code/jsoncpp.cpp	/^void CharReaderBuilder::setDefaults(Json::Value* settings)$/;"	f	class:Json::CharReaderBuilder
+setDefaults	example_code/jsoncpp.cpp	/^void StreamWriterBuilder::setDefaults(Json::Value* settings)$/;"	f	class:Json::StreamWriterBuilder
+setDefaults	jsoncpp.cpp	/^void CharReaderBuilder::setDefaults(Json::Value* settings)$/;"	f	class:Json::CharReaderBuilder
+setDefaults	jsoncpp.cpp	/^void StreamWriterBuilder::setDefaults(Json::Value* settings)$/;"	f	class:Json::StreamWriterBuilder
+setOffsetLimit	example_code/jsoncpp.cpp	/^void Value::setOffsetLimit(size_t limit) { limit_ = limit; }$/;"	f	class:Json::Value
+setOffsetLimit	jsoncpp.cpp	/^void Value::setOffsetLimit(size_t limit) { limit_ = limit; }$/;"	f	class:Json::Value
+setOffsetStart	example_code/jsoncpp.cpp	/^void Value::setOffsetStart(size_t start) { start_ = start; }$/;"	f	class:Json::Value
+setOffsetStart	jsoncpp.cpp	/^void Value::setOffsetStart(size_t start) { start_ = start; }$/;"	f	class:Json::Value
+settings_	example_code/json/json.h	/^  Json::Value settings_;$/;"	m	class:Json::CharReaderBuilder
+settings_	example_code/json/json.h	/^  Json::Value settings_;$/;"	m	class:Json::StreamWriterBuilder
+shutil	example_code/build/gyp-mac-tool	/^import shutil$/;"	i
+size	example_code/jsoncpp.cpp	/^ArrayIndex Value::size() const {$/;"	f	class:Json::Value
+size	jsoncpp.cpp	/^ArrayIndex Value::size() const {$/;"	f	class:Json::Value
+size_t	example_code/json/json.h	/^  typedef unsigned int size_t;$/;"	t	class:Json::ValueIterator
+size_t	example_code/json/json.h	/^  typedef unsigned int size_t;$/;"	t	class:Json::ValueIteratorBase
+skipCommentTokens	example_code/jsoncpp.cpp	/^void OurReader::skipCommentTokens(Token& token) {$/;"	f	class:Json::OurReader
+skipCommentTokens	example_code/jsoncpp.cpp	/^void Reader::skipCommentTokens(Token& token) {$/;"	f	class:Json::Reader
+skipCommentTokens	jsoncpp.cpp	/^void OurReader::skipCommentTokens(Token& token) {$/;"	f	class:Json::OurReader
+skipCommentTokens	jsoncpp.cpp	/^void Reader::skipCommentTokens(Token& token) {$/;"	f	class:Json::Reader
+skipSpaces	example_code/jsoncpp.cpp	/^void OurReader::skipSpaces() {$/;"	f	class:Json::OurReader
+skipSpaces	example_code/jsoncpp.cpp	/^void Reader::skipSpaces() {$/;"	f	class:Json::Reader
+skipSpaces	jsoncpp.cpp	/^void OurReader::skipSpaces() {$/;"	f	class:Json::OurReader
+skipSpaces	jsoncpp.cpp	/^void Reader::skipSpaces() {$/;"	f	class:Json::Reader
+snprintf	example_code/jsoncpp.cpp	209;"	d	file:
+snprintf	example_code/jsoncpp.cpp	3967;"	d	file:
+snprintf	example_code/jsoncpp.cpp	3975;"	d	file:
+snprintf	jsoncpp.cpp	209;"	d	file:
+snprintf	jsoncpp.cpp	3967;"	d	file:
+snprintf	jsoncpp.cpp	3975;"	d	file:
+source	jobSchedule.h	/^	CLocationID source; $/;"	m	class:CPath
+sout_	example_code/json/json.h	/^  std::ostream* sout_;  \/\/ not owned; will not delete$/;"	m	class:Json::StreamWriter
+space	example_code/build/Makefile	/^space := $(empty) $(empty)$/;"	m
+srcdir	example_code/build/Makefile	/^srcdir := ..$/;"	m
+stackDepth_	example_code/jsoncpp.cpp	/^  int stackDepth_;$/;"	m	class:Json::OurReader	file:
+stackDepth_	jsoncpp.cpp	/^  int stackDepth_;$/;"	m	class:Json::OurReader	file:
+stackDepth_g	example_code/jsoncpp.cpp	/^static int       stackDepth_g = 0;  \/\/ see readValue()$/;"	v	file:
+stackDepth_g	jsoncpp.cpp	/^static int       stackDepth_g = 0;  \/\/ see readValue()$/;"	v	file:
+stackLimit_	example_code/jsoncpp.cpp	/^  int stackLimit_;$/;"	m	class:Json::OurFeatures	file:
+stackLimit_	jsoncpp.cpp	/^  int stackLimit_;$/;"	m	class:Json::OurFeatures	file:
+stackLimit_g	example_code/jsoncpp.cpp	/^static int const stackLimit_g = 1000;$/;"	v	file:
+stackLimit_g	jsoncpp.cpp	/^static int const stackLimit_g = 1000;$/;"	v	file:
+start_	example_code/json/json.h	/^    Location start_;$/;"	m	class:Json::Reader::Token
+start_	example_code/json/json.h	/^  size_t start_;$/;"	m	class:Json::Value
+start_	example_code/jsoncpp.cpp	/^    Location start_;$/;"	m	class:Json::OurReader::Token	file:
+start_	jsoncpp.cpp	/^    Location start_;$/;"	m	class:Json::OurReader::Token	file:
+std	example_code/json/json.h	/^namespace std {$/;"	n
+storage_	example_code/json/json.h	/^      StringStorage storage_;$/;"	m	union:Json::Value::CZString::__anon1
+strictMode	example_code/jsoncpp.cpp	/^Features Features::strictMode() {$/;"	f	class:Json::Features
+strictMode	example_code/jsoncpp.cpp	/^void CharReaderBuilder::strictMode(Json::Value* settings)$/;"	f	class:Json::CharReaderBuilder
+strictMode	jsoncpp.cpp	/^Features Features::strictMode() {$/;"	f	class:Json::Features
+strictMode	jsoncpp.cpp	/^void CharReaderBuilder::strictMode(Json::Value* settings)$/;"	f	class:Json::CharReaderBuilder
+strictRoot_	example_code/json/json.h	/^  bool strictRoot_;$/;"	m	class:Json::Features
+strictRoot_	example_code/jsoncpp.cpp	/^  bool strictRoot_;$/;"	m	class:Json::OurFeatures	file:
+strictRoot_	jsoncpp.cpp	/^  bool strictRoot_;$/;"	m	class:Json::OurFeatures	file:
+string	example_code/build/gyp-mac-tool	/^import string$/;"	i
+stringValue	example_code/json/json.h	/^  stringValue,   \/\/\/< UTF-8 string value$/;"	e	enum:Json::ValueType
+string_	example_code/json/json.h	/^    char* string_;  \/\/ actually ptr to unsigned, followed by str, unless !allocated_$/;"	m	union:Json::Value::ValueHolder
+strnpbrk	example_code/jsoncpp.cpp	/^static char const* strnpbrk(char const* s, char const* accept, size_t n) {$/;"	f	namespace:Json
+strnpbrk	jsoncpp.cpp	/^static char const* strnpbrk(char const* s, char const* accept, size_t n) {$/;"	f	namespace:Json
+subprocess	example_code/build/gyp-mac-tool	/^import subprocess$/;"	i
+swap	example_code/json/json.h	/^inline void swap(Json::Value& a, Json::Value& b) { a.swap(b); }$/;"	f	namespace:std
+swap	example_code/jsoncpp.cpp	/^void Value::CZString::swap(CZString& other) {$/;"	f	class:Json::Value::CZString
+swap	example_code/jsoncpp.cpp	/^void Value::swap(Value& other) {$/;"	f	class:Json::Value
+swap	jsoncpp.cpp	/^void Value::CZString::swap(CZString& other) {$/;"	f	class:Json::Value::CZString
+swap	jsoncpp.cpp	/^void Value::swap(Value& other) {$/;"	f	class:Json::Value
+swapPayload	example_code/jsoncpp.cpp	/^void Value::swapPayload(Value& other) {$/;"	f	class:Json::Value
+swapPayload	jsoncpp.cpp	/^void Value::swapPayload(Value& other) {$/;"	f	class:Json::Value
+sys	example_code/build/gyp-mac-tool	/^import sys$/;"	i
+taskList	jobSchedule.h	/^	vector<int>	taskList;$/;"	m	class:CDriver
+tasksAtHand	jobSchedule.h	/^	vector<int>	tasksAtHand;$/;"	m	class:CDriver
+tempfile	example_code/build/gyp-mac-tool	/^import tempfile$/;"	i
+testCase1	test.cpp	/^void testCase1()$/;"	f
+testCase2	test.cpp	/^void testCase2()$/;"	f
+testCase3	test.cpp	/^void testCase3() \/\/after one task finished in testCase2$/;"	f
+testCase4	test.cpp	/^void testCase4() \/\/ same map as testCase2, but two driver cannot complete all the tasks in time$/;"	f
+throwLogicError	example_code/jsoncpp.cpp	/^void throwLogicError(std::string const& msg)$/;"	f	namespace:Json
+throwLogicError	jsoncpp.cpp	/^void throwLogicError(std::string const& msg)$/;"	f	namespace:Json
+throwRuntimeError	example_code/jsoncpp.cpp	/^void throwRuntimeError(std::string const& msg)$/;"	f	namespace:Json
+throwRuntimeError	jsoncpp.cpp	/^void throwRuntimeError(std::string const& msg)$/;"	f	namespace:Json
+toStyledString	example_code/jsoncpp.cpp	/^std::string Value::toStyledString() const {$/;"	f	class:Json::Value
+toStyledString	jsoncpp.cpp	/^std::string Value::toStyledString() const {$/;"	f	class:Json::Value
+tokenArrayBegin	example_code/json/json.h	/^    tokenArrayBegin,$/;"	e	enum:Json::Reader::TokenType
+tokenArrayBegin	example_code/jsoncpp.cpp	/^    tokenArrayBegin,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenArrayBegin	jsoncpp.cpp	/^    tokenArrayBegin,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenArrayEnd	example_code/json/json.h	/^    tokenArrayEnd,$/;"	e	enum:Json::Reader::TokenType
+tokenArrayEnd	example_code/jsoncpp.cpp	/^    tokenArrayEnd,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenArrayEnd	jsoncpp.cpp	/^    tokenArrayEnd,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenArraySeparator	example_code/json/json.h	/^    tokenArraySeparator,$/;"	e	enum:Json::Reader::TokenType
+tokenArraySeparator	example_code/jsoncpp.cpp	/^    tokenArraySeparator,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenArraySeparator	jsoncpp.cpp	/^    tokenArraySeparator,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenComment	example_code/json/json.h	/^    tokenComment,$/;"	e	enum:Json::Reader::TokenType
+tokenComment	example_code/jsoncpp.cpp	/^    tokenComment,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenComment	jsoncpp.cpp	/^    tokenComment,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenEndOfStream	example_code/json/json.h	/^    tokenEndOfStream = 0,$/;"	e	enum:Json::Reader::TokenType
+tokenEndOfStream	example_code/jsoncpp.cpp	/^    tokenEndOfStream = 0,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenEndOfStream	jsoncpp.cpp	/^    tokenEndOfStream = 0,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenError	example_code/json/json.h	/^    tokenError$/;"	e	enum:Json::Reader::TokenType
+tokenError	example_code/jsoncpp.cpp	/^    tokenError$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenError	jsoncpp.cpp	/^    tokenError$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenFalse	example_code/json/json.h	/^    tokenFalse,$/;"	e	enum:Json::Reader::TokenType
+tokenFalse	example_code/jsoncpp.cpp	/^    tokenFalse,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenFalse	jsoncpp.cpp	/^    tokenFalse,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenMemberSeparator	example_code/json/json.h	/^    tokenMemberSeparator,$/;"	e	enum:Json::Reader::TokenType
+tokenMemberSeparator	example_code/jsoncpp.cpp	/^    tokenMemberSeparator,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenMemberSeparator	jsoncpp.cpp	/^    tokenMemberSeparator,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenNull	example_code/json/json.h	/^    tokenNull,$/;"	e	enum:Json::Reader::TokenType
+tokenNull	example_code/jsoncpp.cpp	/^    tokenNull,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenNull	jsoncpp.cpp	/^    tokenNull,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenNumber	example_code/json/json.h	/^    tokenNumber,$/;"	e	enum:Json::Reader::TokenType
+tokenNumber	example_code/jsoncpp.cpp	/^    tokenNumber,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenNumber	jsoncpp.cpp	/^    tokenNumber,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenObjectBegin	example_code/json/json.h	/^    tokenObjectBegin,$/;"	e	enum:Json::Reader::TokenType
+tokenObjectBegin	example_code/jsoncpp.cpp	/^    tokenObjectBegin,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenObjectBegin	jsoncpp.cpp	/^    tokenObjectBegin,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenObjectEnd	example_code/json/json.h	/^    tokenObjectEnd,$/;"	e	enum:Json::Reader::TokenType
+tokenObjectEnd	example_code/jsoncpp.cpp	/^    tokenObjectEnd,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenObjectEnd	jsoncpp.cpp	/^    tokenObjectEnd,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenString	example_code/json/json.h	/^    tokenString,$/;"	e	enum:Json::Reader::TokenType
+tokenString	example_code/jsoncpp.cpp	/^    tokenString,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenString	jsoncpp.cpp	/^    tokenString,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenTrue	example_code/json/json.h	/^    tokenTrue,$/;"	e	enum:Json::Reader::TokenType
+tokenTrue	example_code/jsoncpp.cpp	/^    tokenTrue,$/;"	e	enum:Json::OurReader::TokenType	file:
+tokenTrue	jsoncpp.cpp	/^    tokenTrue,$/;"	e	enum:Json::OurReader::TokenType	file:
+token_	example_code/json/json.h	/^    Token token_;$/;"	m	class:Json::Reader::ErrorInfo
+token_	example_code/jsoncpp.cpp	/^    Token token_;$/;"	m	class:Json::OurReader::ErrorInfo	file:
+token_	jsoncpp.cpp	/^    Token token_;$/;"	m	class:Json::OurReader::ErrorInfo	file:
+tryAddTask	jobSchedule.cpp	/^double ALG::tryAddTask(int iTask, int iDriver, CDriver & driver, vector<CTask> & tasks)$/;"	f	class:ALG
+type	example_code/jsoncpp.cpp	/^ValueType Value::type() const { return type_; }$/;"	f	class:Json::Value
+type	jsoncpp.cpp	/^ValueType Value::type() const { return type_; }$/;"	f	class:Json::Value
+type_	example_code/json/json.h	/^    TokenType type_;$/;"	m	class:Json::Reader::Token
+type_	example_code/jsoncpp.cpp	/^    TokenType type_;$/;"	m	class:Json::OurReader::Token	file:
+type_	jsoncpp.cpp	/^    TokenType type_;$/;"	m	class:Json::OurReader::Token	file:
+uintToString	example_code/jsoncpp.cpp	/^static inline void uintToString(LargestUInt value, char*& current) {$/;"	f	namespace:Json
+uintToString	jsoncpp.cpp	/^static inline void uintToString(LargestUInt value, char*& current) {$/;"	f	namespace:Json
+uintToStringBufferSize	example_code/jsoncpp.cpp	/^  uintToStringBufferSize = 3 * sizeof(LargestUInt) + 1$/;"	e	enum:Json::__anon2	file:
+uintToStringBufferSize	jsoncpp.cpp	/^  uintToStringBufferSize = 3 * sizeof(LargestUInt) + 1$/;"	e	enum:Json::__anon3	file:
+uintValue	example_code/json/json.h	/^  uintValue,     \/\/\/< unsigned integer value$/;"	e	enum:Json::ValueType
+uint_	example_code/json/json.h	/^    LargestUInt uint_;$/;"	m	union:Json::Value::ValueHolder
+unindent	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::unindent() {$/;"	f	class:Json::BuiltStyledStreamWriter
+unindent	example_code/jsoncpp.cpp	/^void StyledStreamWriter::unindent() {$/;"	f	class:Json::StyledStreamWriter
+unindent	example_code/jsoncpp.cpp	/^void StyledWriter::unindent() {$/;"	f	class:Json::StyledWriter
+unindent	jsoncpp.cpp	/^void BuiltStyledStreamWriter::unindent() {$/;"	f	class:Json::BuiltStyledStreamWriter
+unindent	jsoncpp.cpp	/^void StyledStreamWriter::unindent() {$/;"	f	class:Json::StyledStreamWriter
+unindent	jsoncpp.cpp	/^void StyledWriter::unindent() {$/;"	f	class:Json::StyledWriter
+unreplace_spaces	example_code/build/Makefile	/^unreplace_spaces = $(subst ?,$(space),$1)$/;"	m
+validate	example_code/jsoncpp.cpp	/^bool CharReaderBuilder::validate(Json::Value* invalid) const$/;"	f	class:Json::CharReaderBuilder
+validate	example_code/jsoncpp.cpp	/^bool StreamWriterBuilder::validate(Json::Value* invalid) const$/;"	f	class:Json::StreamWriterBuilder
+validate	jsoncpp.cpp	/^bool CharReaderBuilder::validate(Json::Value* invalid) const$/;"	f	class:Json::CharReaderBuilder
+validate	jsoncpp.cpp	/^bool StreamWriterBuilder::validate(Json::Value* invalid) const$/;"	f	class:Json::StreamWriterBuilder
+valueToQuotedString	example_code/jsoncpp.cpp	/^std::string valueToQuotedString(const char* value) {$/;"	f	namespace:Json
+valueToQuotedString	jsoncpp.cpp	/^std::string valueToQuotedString(const char* value) {$/;"	f	namespace:Json
+valueToQuotedStringN	example_code/jsoncpp.cpp	/^static std::string valueToQuotedStringN(const char* value, unsigned length) {$/;"	f	namespace:Json
+valueToQuotedStringN	jsoncpp.cpp	/^static std::string valueToQuotedStringN(const char* value, unsigned length) {$/;"	f	namespace:Json
+valueToString	example_code/jsoncpp.cpp	/^std::string valueToString(Int value) {$/;"	f	namespace:Json
+valueToString	example_code/jsoncpp.cpp	/^std::string valueToString(LargestInt value) {$/;"	f	namespace:Json
+valueToString	example_code/jsoncpp.cpp	/^std::string valueToString(LargestUInt value) {$/;"	f	namespace:Json
+valueToString	example_code/jsoncpp.cpp	/^std::string valueToString(UInt value) {$/;"	f	namespace:Json
+valueToString	example_code/jsoncpp.cpp	/^std::string valueToString(bool value) { return value ? "true" : "false"; }$/;"	f	namespace:Json
+valueToString	example_code/jsoncpp.cpp	/^std::string valueToString(double value) {$/;"	f	namespace:Json
+valueToString	jsoncpp.cpp	/^std::string valueToString(Int value) {$/;"	f	namespace:Json
+valueToString	jsoncpp.cpp	/^std::string valueToString(LargestInt value) {$/;"	f	namespace:Json
+valueToString	jsoncpp.cpp	/^std::string valueToString(LargestUInt value) {$/;"	f	namespace:Json
+valueToString	jsoncpp.cpp	/^std::string valueToString(UInt value) {$/;"	f	namespace:Json
+valueToString	jsoncpp.cpp	/^std::string valueToString(bool value) { return value ? "true" : "false"; }$/;"	f	namespace:Json
+valueToString	jsoncpp.cpp	/^std::string valueToString(double value) {$/;"	f	namespace:Json
+value_	example_code/json/json.h	/^  } value_;$/;"	m	class:Json::Value	typeref:union:Json::Value::ValueHolder
+value_type	example_code/json/json.h	/^  typedef Value value_type;$/;"	t	class:Json::ValueIterator
+value_type	example_code/json/json.h	/^  typedef const Value value_type;$/;"	t	class:Json::ValueConstIterator
+venue	jobSchedule.h	/^	CLocationID	venue;$/;"	m	class:CTask
+what	example_code/jsoncpp.cpp	/^char const* Exception::what() const throw()$/;"	f	class:Json::Exception
+what	jsoncpp.cpp	/^char const* Exception::what() const throw()$/;"	f	class:Json::Exception
+write	example_code/jsoncpp.cpp	/^int BuiltStyledStreamWriter::write(Value const& root, std::ostream* sout)$/;"	f	class:Json::BuiltStyledStreamWriter
+write	example_code/jsoncpp.cpp	/^std::string FastWriter::write(const Value& root) {$/;"	f	class:Json::FastWriter
+write	example_code/jsoncpp.cpp	/^std::string StyledWriter::write(const Value& root) {$/;"	f	class:Json::StyledWriter
+write	example_code/jsoncpp.cpp	/^void StyledStreamWriter::write(std::ostream& out, const Value& root) {$/;"	f	class:Json::StyledStreamWriter
+write	jsoncpp.cpp	/^int BuiltStyledStreamWriter::write(Value const& root, std::ostream* sout)$/;"	f	class:Json::BuiltStyledStreamWriter
+write	jsoncpp.cpp	/^std::string FastWriter::write(const Value& root) {$/;"	f	class:Json::FastWriter
+write	jsoncpp.cpp	/^std::string StyledWriter::write(const Value& root) {$/;"	f	class:Json::StyledWriter
+write	jsoncpp.cpp	/^void StyledStreamWriter::write(std::ostream& out, const Value& root) {$/;"	f	class:Json::StyledStreamWriter
+writeArrayValue	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeArrayValue(Value const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeArrayValue	example_code/jsoncpp.cpp	/^void StyledStreamWriter::writeArrayValue(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+writeArrayValue	example_code/jsoncpp.cpp	/^void StyledWriter::writeArrayValue(const Value& value) {$/;"	f	class:Json::StyledWriter
+writeArrayValue	jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeArrayValue(Value const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeArrayValue	jsoncpp.cpp	/^void StyledStreamWriter::writeArrayValue(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+writeArrayValue	jsoncpp.cpp	/^void StyledWriter::writeArrayValue(const Value& value) {$/;"	f	class:Json::StyledWriter
+writeCommentAfterValueOnSameLine	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine(Value const& root) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeCommentAfterValueOnSameLine	example_code/jsoncpp.cpp	/^void StyledStreamWriter::writeCommentAfterValueOnSameLine(const Value& root) {$/;"	f	class:Json::StyledStreamWriter
+writeCommentAfterValueOnSameLine	example_code/jsoncpp.cpp	/^void StyledWriter::writeCommentAfterValueOnSameLine(const Value& root) {$/;"	f	class:Json::StyledWriter
+writeCommentAfterValueOnSameLine	jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeCommentAfterValueOnSameLine(Value const& root) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeCommentAfterValueOnSameLine	jsoncpp.cpp	/^void StyledStreamWriter::writeCommentAfterValueOnSameLine(const Value& root) {$/;"	f	class:Json::StyledStreamWriter
+writeCommentAfterValueOnSameLine	jsoncpp.cpp	/^void StyledWriter::writeCommentAfterValueOnSameLine(const Value& root) {$/;"	f	class:Json::StyledWriter
+writeCommentBeforeValue	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeCommentBeforeValue(Value const& root) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeCommentBeforeValue	example_code/jsoncpp.cpp	/^void StyledStreamWriter::writeCommentBeforeValue(const Value& root) {$/;"	f	class:Json::StyledStreamWriter
+writeCommentBeforeValue	example_code/jsoncpp.cpp	/^void StyledWriter::writeCommentBeforeValue(const Value& root) {$/;"	f	class:Json::StyledWriter
+writeCommentBeforeValue	jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeCommentBeforeValue(Value const& root) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeCommentBeforeValue	jsoncpp.cpp	/^void StyledStreamWriter::writeCommentBeforeValue(const Value& root) {$/;"	f	class:Json::StyledStreamWriter
+writeCommentBeforeValue	jsoncpp.cpp	/^void StyledWriter::writeCommentBeforeValue(const Value& root) {$/;"	f	class:Json::StyledWriter
+writeIndent	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeIndent() {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeIndent	example_code/jsoncpp.cpp	/^void StyledStreamWriter::writeIndent() {$/;"	f	class:Json::StyledStreamWriter
+writeIndent	example_code/jsoncpp.cpp	/^void StyledWriter::writeIndent() {$/;"	f	class:Json::StyledWriter
+writeIndent	jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeIndent() {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeIndent	jsoncpp.cpp	/^void StyledStreamWriter::writeIndent() {$/;"	f	class:Json::StyledStreamWriter
+writeIndent	jsoncpp.cpp	/^void StyledWriter::writeIndent() {$/;"	f	class:Json::StyledWriter
+writeString	example_code/jsoncpp.cpp	/^std::string writeString(StreamWriter::Factory const& builder, Value const& root) {$/;"	f	namespace:Json
+writeString	jsoncpp.cpp	/^std::string writeString(StreamWriter::Factory const& builder, Value const& root) {$/;"	f	namespace:Json
+writeValue	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeValue(Value const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeValue	example_code/jsoncpp.cpp	/^void FastWriter::writeValue(const Value& value) {$/;"	f	class:Json::FastWriter
+writeValue	example_code/jsoncpp.cpp	/^void StyledStreamWriter::writeValue(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+writeValue	example_code/jsoncpp.cpp	/^void StyledWriter::writeValue(const Value& value) {$/;"	f	class:Json::StyledWriter
+writeValue	jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeValue(Value const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeValue	jsoncpp.cpp	/^void FastWriter::writeValue(const Value& value) {$/;"	f	class:Json::FastWriter
+writeValue	jsoncpp.cpp	/^void StyledStreamWriter::writeValue(const Value& value) {$/;"	f	class:Json::StyledStreamWriter
+writeValue	jsoncpp.cpp	/^void StyledWriter::writeValue(const Value& value) {$/;"	f	class:Json::StyledWriter
+writeWithIndent	example_code/jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeWithIndent(std::string const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeWithIndent	example_code/jsoncpp.cpp	/^void StyledStreamWriter::writeWithIndent(const std::string& value) {$/;"	f	class:Json::StyledStreamWriter
+writeWithIndent	example_code/jsoncpp.cpp	/^void StyledWriter::writeWithIndent(const std::string& value) {$/;"	f	class:Json::StyledWriter
+writeWithIndent	jsoncpp.cpp	/^void BuiltStyledStreamWriter::writeWithIndent(std::string const& value) {$/;"	f	class:Json::BuiltStyledStreamWriter
+writeWithIndent	jsoncpp.cpp	/^void StyledStreamWriter::writeWithIndent(const std::string& value) {$/;"	f	class:Json::StyledStreamWriter
+writeWithIndent	jsoncpp.cpp	/^void StyledWriter::writeWithIndent(const std::string& value) {$/;"	f	class:Json::StyledWriter
+yamlCompatiblityEnabled_	example_code/json/json.h	/^  bool yamlCompatiblityEnabled_;$/;"	m	class:Json::FastWriter
+~CZString	example_code/jsoncpp.cpp	/^Value::CZString::~CZString() {$/;"	f	class:Json::Value::CZString
+~CZString	jsoncpp.cpp	/^Value::CZString::~CZString() {$/;"	f	class:Json::Value::CZString
+~CharReader	example_code/json/json.h	/^  virtual ~CharReader() {}$/;"	f	class:Json::CharReader
+~CharReaderBuilder	example_code/jsoncpp.cpp	/^CharReaderBuilder::~CharReaderBuilder()$/;"	f	class:Json::CharReaderBuilder
+~CharReaderBuilder	jsoncpp.cpp	/^CharReaderBuilder::~CharReaderBuilder()$/;"	f	class:Json::CharReaderBuilder
+~CommentInfo	example_code/jsoncpp.cpp	/^Value::CommentInfo::~CommentInfo() {$/;"	f	class:Json::Value::CommentInfo
+~CommentInfo	jsoncpp.cpp	/^Value::CommentInfo::~CommentInfo() {$/;"	f	class:Json::Value::CommentInfo
+~Exception	example_code/jsoncpp.cpp	/^Exception::~Exception() throw()$/;"	f	class:Json::Exception
+~Exception	jsoncpp.cpp	/^Exception::~Exception() throw()$/;"	f	class:Json::Exception
+~Factory	example_code/json/json.h	/^    virtual ~Factory() {}$/;"	f	class:Json::CharReader::Factory
+~Factory	example_code/jsoncpp.cpp	/^StreamWriter::Factory::~Factory()$/;"	f	class:Json::StreamWriter::Factory
+~Factory	jsoncpp.cpp	/^StreamWriter::Factory::~Factory()$/;"	f	class:Json::StreamWriter::Factory
+~FastWriter	example_code/json/json.h	/^  virtual ~FastWriter() {}$/;"	f	class:Json::FastWriter
+~StreamWriter	example_code/jsoncpp.cpp	/^StreamWriter::~StreamWriter()$/;"	f	class:Json::StreamWriter
+~StreamWriter	jsoncpp.cpp	/^StreamWriter::~StreamWriter()$/;"	f	class:Json::StreamWriter
+~StreamWriterBuilder	example_code/jsoncpp.cpp	/^StreamWriterBuilder::~StreamWriterBuilder()$/;"	f	class:Json::StreamWriterBuilder
+~StreamWriterBuilder	jsoncpp.cpp	/^StreamWriterBuilder::~StreamWriterBuilder()$/;"	f	class:Json::StreamWriterBuilder
+~StyledStreamWriter	example_code/json/json.h	/^  ~StyledStreamWriter() {}$/;"	f	class:Json::StyledStreamWriter
+~StyledWriter	example_code/json/json.h	/^  virtual ~StyledWriter() {}$/;"	f	class:Json::StyledWriter
+~Value	example_code/jsoncpp.cpp	/^Value::~Value() {$/;"	f	class:Json::Value
+~Value	jsoncpp.cpp	/^Value::~Value() {$/;"	f	class:Json::Value
+~Writer	example_code/jsoncpp.cpp	/^Writer::~Writer() {}$/;"	f	class:Json::Writer
+~Writer	jsoncpp.cpp	/^Writer::~Writer() {}$/;"	f	class:Json::Writer
